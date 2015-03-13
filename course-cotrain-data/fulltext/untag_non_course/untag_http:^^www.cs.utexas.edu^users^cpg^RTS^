@@ -1,0 +1,68 @@
+
+
+UTCS Real-Time Systems Research Group
+
+
+
+
+
+
+
+The Real-Time Systems research group is headed by
+Prof. Aloysius Mok.
+In the past few years, we have worked towards laying the groundwork
+for establishing a firm theoretical foundation for real-time systems
+and also to build design tools based on this foundation. Our work can
+be categorized into three areas as follows:
+
+
+	Specification and Modeling: precise formulation of real-time properties of systems.
+
+	Analysis and Verification: reasoning about real-time properties.
+
+        Synthesis: enforcing stringent  timing  constraints  and other real-time properties.
+
+
+Projects
+
+	 RTL (Real-Time Logic)
+	 Modechart Toolset
+	  Modechart Editor
+	      Modechart Verifier
+	      Modechart Simulator
+	      Modechart Compiler
+	
+	 Timetool
+	 Ged
+	 Scenario Language
+
+
+Publications
+Abstracts of some of
+the group's papers are available
+online in PostScript.
+
+
+
+Current Members
+
+	 Deji Chen
+	 Carlos Puchol
+	 Doug Stuart
+	 Duu-chung Tsou
+	 Guangtian Liu
+	 Rwo-Hsi Wang
+	 Jin Yang
+
+
+Alumni
+
+ Tei-Wei Kuo
+ Paul Clements
+ Chih-kan Wang
+ Farn Wang
+ Supoj Suthandavibul
+ Farnam Jahanian
+
+
+

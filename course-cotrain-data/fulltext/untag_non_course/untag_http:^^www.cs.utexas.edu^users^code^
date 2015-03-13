@@ -1,0 +1,215 @@
+
+
+CODE Visual Parallel Programming System
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Mastering the lawless science of our law,--
+That codeless myriad of precedent,
+That wilderness of single instances.
+-- Alfred Lord Tennyson
+
+
+
+
+CODE is a visual parallel programming system, allowing users to compose sequential
+programs into a parallel one. The parallel program is a directed graph, where
+data flows on arcs connecting the nodes representing the sequential programs. The
+sequential programs may be written in any language, and CODE will produce parallel
+programs for a variety of architectures, as its model is architecture-independent.
+
+Click here for a screen shot.
+
+
+
+The CODE system can produce parallel programs for PVM-based networks of machines as well as for the Sequent Symmetry. The newest version (pre-release available below) supports the Cray, Sun SMPs, and MPI.
+
+
+
+
+
+
+
+
+
+
+
+
+Announcements
+
+
+
+
+(11/14/96) A pre-release version of the new CODE is now available (and it's FREE)!  Click here to download the software.
+
+This is a major new revision of CODE (click here for a screen shot). It features a sophisticated new user-interface which provides many improvements to the previous version of CODE, making it easier and more pleasant to use. Some of the features include a Mac-like interface ( la MacDraw), multiple windows for subgraph editing, a hierarchy browser and more.
+
+
+
+(10/8/96) Article on CODE: HPCwire, the on-line journal of high-performance computing, recently published an article on CODE entitled "Visual Parallel Programming May Come of Age with CODE" that they've been kind enough to let us reproduce here.
+
+
+
+
+
+There is a CODE mailing-list for current (and prospective) CODE users so that they will be notified of releases, new backends, etc.
+To join the mailing list, fill in the form below. (If you download CODE, you will also be added to the mailing list.)
+
+
+
+
+
+First name: 
+
+
+Last name: 
+
+
+E-mail address: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Documentation & Publications
+
+
+
+These directories of compressed PostScript files are documentation for the previous version of CODE, but are being made available in lieu of new documentation, which is in the preparation stages. Despite the changes in the user interface, these manuals are still quite useful.
+
+
+
+  CODE 2.0 User's Manual 
+
+  CODE 2.0 Reference Manual 
+
+
+
+
+
+Here is a listing of CODE-related publications, including links to PostScript versions of most of them.
+
+
+
+
+
+
+
+
+
+Contact Information
+
+For specific comments regarding CODE, send e-mail to Emery Berger at emery@cs.utexas.edu. To send snail mail to a group member, address it to:
+
+
+Department of Computer Sciences 
+The University of Texas at Austin 
+Austin, TX 78712-1188 
+
+
+
+
+The Research Group
+
+
+
+
+Group Leader
+
+
+
+Professor James C. Browne
+
+
+
+
+Project Manager
+
+
+ Emery Berger
+
+
+
+Student Members
+
+
+
+ Dwip Banerjee: Incorporating dynamic data partitioning into the CODE model.
+
+ Ajita John: Developing a programming system based on constraints for automatic parallelization.
+
+
+
+ CODE Alumni 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Overview] [Announcements] [Software]  
+
+[Researchers] [Publications] [Contacts]
+
+
+
+
+
+CODE Home Page / emery@cs.utexas.edu / Last updated 2 January 1997
+
+
+
+

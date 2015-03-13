@@ -1,0 +1,142 @@
+
+
+	Marc E. Fiuczynski's Home Page
+
+<!-- Begin code
+
+/* Copyright (C)1996 Web Integration Systems, Inc. DBA Websys, Inc.
+   All Rights Reserved.
+   This applet can be re-used or modified, if credit is given in the source code.
+*/
+
+function scrollit_r2l(seed)
+{
+	var m1  = "Isn't Java awesome?          ";
+	var m2  = "Give me a break.";
+	
+	var msg=m1+m2;
+	var out = " ";
+	var c   = 1;
+
+	if (seed > 100) {
+		seed--;
+		var cmd="scrollit_r2l(" + seed + ")";
+		timerTwo=window.setTimeout(cmd,100);
+	}
+	else if (seed <= 100 && seed > 0) {
+		for (c=0 ; c < seed ; c++) {
+			out+=" ";
+		}
+		out+=msg;
+		seed--;
+		var cmd="scrollit_r2l(" + seed + ")";
+		    window.status=out;
+		timerTwo=window.setTimeout(cmd,50);
+	}
+	else if (seed <= 0) {
+		if (-seed < msg.length) {
+			out+=msg.substring(-seed,msg.length);
+			seed--;
+			var cmd="scrollit_r2l(" + seed + ")";
+			window.status=out;
+			timerTwo=window.setTimeout(cmd,100);
+		}
+		else {
+			window.status=" ";
+			timerTwo=window.setTimeout("scrollit_r2l(100)",75);
+		}
+	}
+}
+// -- End code -->
+
+
+
+
+ Marc E. Fiuczynski's Home Page
+ Marc E. Fiuczynski
+     
+     mef@cs.washington.edu 
+     Computer Science & Engineering Department,  
+     University of Washington, FR-35, 
+     Seattle, WA 98195 USA
+
+
+ 
+
+Background
+
+I'm a graduate student at the University of Washington in the Department of Computer Science and Engineering.  I grew
+up in Germany (near Düsseldorf), and spent a few years in High
+School in Princeton, NJ.  I received a B.A. in Computer Science from
+Rutgers University in 1992 and spent several summers at AT Bell Labs and the MITRE Corporation working on a range of
+projects.  I'm the sole proprietor of MEF Systems, a company
+that I created in December 1993 to sell a distributed, fault tolerant,
+IP network based telephone system that I built from scratch on a set
+of VME chasis with 680x0 processors, using UniVoice telephone interface cards
+and the VxWorks operating system.
+
+
+Most of my time I spend hacking on SPIN, which is
+a safe, adaptable and extensible operating system.
+
+My primary contribution to SPIN is An Extensible Protocol Architecture for
+Application-Specific Networking.  Applications achieve compelling
+performance improvements using our new structure, when compared to
+similar applications running on DEC's commercial OSF/1 V3.2 platform.
+For a demonstration of this work as it services HTTP requests contact
+http://www-spin.cs.washington.edu.
+
+
+
+Recent reports and papers
+
+ 
+
+ An Extensible Protocol Architecture for
+Application-Specific Networking 
+ A design and implementation and performance paper.  Describes an
+extensible protocol architecture that allows anyone to customize an
+in-kernel protocol graph, which enables applications achieves better
+performance compared to similar applications running on conventional
+operating systems.
+
+For a demonstration of this work as it services HTTP requests contact
+http://www-spin.cs.washington.edu.
+
+
+Appeared in the Proceedings of the 1996 Winter USENIX Technical
+Conference
+
+ Extensibility,
+Safety and Performance in the SPIN Operating System 
+
+ A design, implementation and performance paper.
+ Appeared in the Proceedings of the Fifteenth ACM Symposium on Operating Systems Principles.
+
+
+ Language Support for Extensible Operating Systems
+  We've been pretty happy with M3, but we've had to deal with a few shortcomings in
+order to use the language in a safe extensible operating system. This paper describes
+how we've addressed those shortcomings.
+
+
+ Safe Dynamic Linking in an Extensible Operating System
+ Describes the dynamic linker we use to load code into the kernel.  Key point is
+the ability to create and manage linkable namespaces that describe interfaces and
+collections of interfaces.
+
+
+ Protection is a Software Issue
+ A position paper comparing software and hardware protection mechanisms.
+ Proceedings of the Fifth IEEE Workshop on Hot Topics in Operating Systems.
+
+
+ Region Analysis: A Parallel Elimination Method for Data Flow Analysis
+ In IEEE 1995 Transactions on Software Engineering.
+
+
+
+
+
+
+mef@cs.washington.edu

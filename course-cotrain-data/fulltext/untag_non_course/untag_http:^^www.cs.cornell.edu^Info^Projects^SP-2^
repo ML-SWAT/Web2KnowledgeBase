@@ -1,0 +1,151 @@
+
+
+CUCS IBM SP-2
+
+
+Computer Science IBM SP-2
+
+
+
+
+
+Using the CUCS SP-2
+
+The machine is called granita. The eight nodes are granita1
+through granita8.
+If you have a CUCS login, you can use the SP-2.
+Log into granita1 or granita2 which we've designated as
+interactive nodes. Shells installed: 
+sh, bsh, csh, ksh, tcsh, bash, tsh. If you experience problems
+during your first login, try to remove operating-system specific stuff
+from your shell configuration file (for example, AIX does not have
+the arch command; you can use uname instead). 
+The file /usr/lpp/bos/README contains 
+information
+about the release of AIX used on our SP-2. In addition to man
+you can use InfoExplorer to get more information about commands
+and usage of the machine. To use this program, set up your remote display 
+properly 
+and type info.
+Use poe to run parallel jobs that use neither Active
+Massages nor Split-C (and info -l pe
+or man poe to read more about poe).
+Read below about how to run parallel programs that use Active Messages
+or Split-C.
+
+More information about:
+
+IBM SP-2
+hardware.
+Cornell Theory Center SP-2.
+
+
+
+Homegrown software
+
+In general, local software is installed in /usr/u/sww. Be
+sure that /usr/u/sww/sp2/bin and 
+/usr/u/sww/sp2/gnu/bin are in your path.
+
+
+Split-C
+
+Split-C is a simple extension to C for
+parallel computing. It provides a global address space though global
+pointers which can be dereferenced just like regular pointers.
+Split-phase assignment statements allow programmers to hide the latency
+of remote accesses by overlapping computation and communication.
+Examples and makefiles can be found in 
+~sww/sp2/split-c-bench/cu-bench.
+
+Before working with Split-C, source 
+~sww/sp2/etc/sp2-setenv. Users of non-csh shells
+should execute commands in ~sww/sp2/etc/sp2-setenv-non-csh.
+To compile Split-C programs, create a Makefile
+(look at samples in various directories in 
+~sww/sp2/split-c-bench/cu-bench) and type gmake.
+You must include Make.split-c in your Makefile!
+Split-C programs are run in the same way as
+Active Messages programs, i.e. using amr scripts
+located in /usr/u/sww/sp-2/bin. For example, to run a program
+foo on 3 processors type amr3 ./foo
+
+Debugging Split-C
+To debug a Split-C program, the following steps need to be done:
+
+ include split-c/debug.h
+ insert splitc_debug() as the first statement to be executed after
+splitc_main()
+ compile and run your program as described in the previous section
+ you will see the following message in node 0 (most commonly run on
+granita1): Debugging Split-C -- hit enter to continue:"
+ before hitting return, log onto the node you want to debug (if you
+want to debug the master node, open a new shell)
+ go to the directory where your program source is located
+ run gdb
+ inside gdb, do: file am_run, and then
+attach pid, where pid the
+the proc id of the am_run process on the node being debugged
+ hit return on node 0 to let computation proceed
+ once you've attached gdb to am_run, am_run is stopped by gdb, and
+you can set breakpoints, look at stack frames, etc.
+
+
+Active Messages
+
+Active Messages is a low-overhead communication layer
+that offers high-performance communication on many parallel machines.
+A native Active Messages layer (SP2AM) is now available for the SP-2.
+The main performance characteristics of SP2 AM are a one-word round-trip
+latency of 51 us and an asymptotic network bandwidth of 34.3 MB/s.
+
+The SP2AM library is found in /usr/u/sww/sp-2/lib/libsp2gam.a
+and the header file is in /usr/u/sww/sp-2/include. Before
+running programs that use Active Messages, 
+source ~sww/sp2/etc/sp2-setenv and read
+/usr/u/sww/sp-2/gam-1.0/doc/RunningPrgms. 
+The amr scripts are located also in 
+/usr/u/sww/sp-2/bin.
+
+MPI
+
+MPI is a popular
+message passing interface for portable parallel programs.  We have an
+implementation of MPI (based on the MPICH library) running over
+Active Messages on the SP-2.
+The header files are located in /usr/u/sww/sp-2/include.
+The library file is located in /usr/u/sww/sp-2/lib.
+The easiest way to compile and link is with the script file "ampicc" (which
+is built on top of xlC):
+
+ampicc -O3 foo.c -o foo
+
+You can also compile MPI programs with xlC, gcc, and split-cc (please look
+at the examples
+in the directory ~sww/sp2/ampi/examples for information about this).
+MPI programs are run exactly like
+ordinary Active Messages programs (i.e. "amr4 foo").
+Be sure to source ~sww/sp2/etc/sp2-setenv.
+
+
+
+
+
+
+
+
+Other software
+Software available on granita1 and granita2 also includes 
+tcsh, bash, C Set ++ (xlC), Fortran (xlf), xpdbx, X11, matlab. 
+GNU software installed in
+~sww/sp2/gnu includes 
+emacs, gmake, gcc, g++, gdb, bison. Some of it is 
+replicated locally in /usr/local/gnu/bin.
+
+
+Problems
+
+If you experience difficulties with the SP-2, please contact the SP-2
+czar 
+Grzegorz Czajkowski.
+
