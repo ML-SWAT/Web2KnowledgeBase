@@ -1,0 +1,145 @@
+
+
+
+   The Chinook Project 
+   
+ 
+
+
+
+
+The Chinook Project 
+
+
+
+
+
+
+
+/shiNOOK/, n. 
+
+
+chinook salmon a large salmon, Oncorhynchus tshawytscha,
+of the N. Pacific. 
+
+Amer. Ind. name of a tribe 
+
+a warm dry wind which blows east of the Rocky Mountains. 
+
+a warm wet southerly wind west of the Rocky Mountains. 
+
+a rare American sled dog
+
+
+a hardware-software co-synthesis CAD tool
+for real-time embedded systems. 
+
+
+
+Chinook is a hardware-software co-synthesis CAD
+tool for embedded systems. It is designed for control dominated, reactive
+systems under timing constraints. Chinook maps a behavioral description
+to the user's target architecture, by filling in all the details needed
+to build the complete system. This enables designers to make informed design
+decisions at the high level early in the design cycle, rather than reiterate
+after having worked out all the low level details. Retargetability will
+not only make the designs more maintainable but also enables the designer
+to take advantage of new technologies, instead of being tied down by legacy
+code.
+
+Chinook is currently under active development in a new generation. Currently
+we are actively working on software architecture synthesis, interprocessor
+communication synthesis, and efficient and accurate co-simulation. More
+details will become available shortly.
+
+Chinook is characterized as follows. It meets timing constraints, rather
+than trying to maximize average performance or utilization. It assumes
+manual partitioning, because we believe the issues are too intricate
+and sometimes not even technical. We want the designers to evaluate different
+architectures, rather than forcing a single fixed Processor-Bus-ASIC
+architecture. We synthesize software architectures rather than rely on
+off the shelf real-time kernels because they discourage retargeting. 
+
+The first version of the Chinook co-synthesis tool was operational in
+November 1993. ``Version roe'' was shown
+at DAC (Design Automation Conference) in San Diego in June 1994. Its main
+features include automatic connection between the processor and peripheral
+devices, generation of sequential code from a concurrent description, and
+synthesizing device drivers. Its inputs Verilog and outputs a hardware
+netlist needed to connect the hardware components together and the software
+program to run on the processor. The main topics include the interfacing
+problem between hardware and software components, scheduling under timing
+constraints, and partitioning of functionality.
+
+An improved version was demonstrated at the NATO summer school on HW/SW
+CodeDesign, in Tremezzo, Italy June 19-30, 1995. It incorporated several
+more interface synthesis techniques, including memory-mapped I/O, more
+efficient code generation, and a new simulator. 
+
+Chinookers
+
+Faculty
+
+
+Gaetano Borriello
+
+
+
+Graduate students 
+
+
+Pai Chou 
+
+Ross Ortega
+
+
+Ken Hines
+
+
+Ian MacDuff 
+
+
+Recent Ph.D.'s
+
+
+Elizabeth A. Walkup
+
+
+Scott Hauck,
+
+
+Henrik Hulgaard
+
+
+
+Staff
+
+
+Larry McMurchie
+
+
+
+List of Papers
+
+Chinook sponsors
+
+
+ARPA under contract N00014-J-91-4041 
+
+National Science Foundation under Grant MIP-8858782 
+
+National Science Graduate Fellowship (Walkup) 
+
+Patricia Roberts Harris Fellowship (Ortega) 
+
+GTE Graduate Fellowship (Chou) 
+
+
+Embedded Links
+
+University
+of Washington 
+Last updated Tue Nov 12 06:34:47 PDT 1996 
+
+
+

@@ -1,0 +1,44 @@
+
+Cornell MediaNet Project
+
+
+
+MediaNet: A High Performance Platform for Network Media Processing 
+
+MediaNet combines 3 technologies developed by researchers at Cornell to
+develop a flexible, high performance testbed for storing, transporting, 
+processing, and using multimedia data.  MediaNet combines:
+
+
+ U-Net: User level network architecture.
+User level access to the network dramatically improves performance 
+and facilitates the development of new communication protocols
+The order-of-magnitude improvement in LAN communication
+makes parallel computations on workstation clusters practical.
+
+
+  CM-Horus: Group communication
+primitives for multimedia.
+We are adapting an industrial strength group communication tool, Horus,
+to multimedia applications.
+Such secure and reliable group communication primitives are critical for
+advanced military and commercial multimedia applications
+
+
+ CMT: Toolkit approach for 
+reliable distributed audio/video applications.
+CMT is a portable toolkit for building applications that include
+audio and video, facilitating the rapid prototyping of multimedia
+applications. 
+
+
+
+
+Funding for the project is provided under contract N00014-95-1-0799 from
+the DARPA Information Technology
+Office
+
+
+For further information contact Thorsten
+von Eicken or Brian Smith
+

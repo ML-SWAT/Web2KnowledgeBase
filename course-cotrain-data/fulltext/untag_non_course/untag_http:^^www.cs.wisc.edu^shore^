@@ -1,0 +1,359 @@
+
+
+SHORE Project Home Page
+
+
+SHORE - A High-Performance, Scalable, Persistent Object Repository
+
+
+
+Document Contents:
+
+
+Objective
+
+
+Overview
+
+
+Release Information
+
+
+Mailing Lists
+
+
+
+See Also:
+
+Shore, version 1.0
+	
+	
+	On-line Information
+	
+	
+	Source, Binaries and Documentation
+	
+	
+
+The Beta-release of Shore (version 0.9.3)
+
+
+Publications related to Shore
+
+
+People working on Shore
+
+
+Latest Research Summary for ARPA
+
+
+Paradise Project: a GIS built on SHORE
+
+
+EXODUS Project: the predecessor to Shore
+
+
+OO7 Benchmark: a benchmark for OODBs
+
+
+Shore Photo Album
+
+
+UW-Madison, Database Research Group 
+
+
+
+UW-Madison, CS Department Server
+
+
+
+
+Objective:
+
+
+The objective of the SHORE project is to design, implement, and
+evaluate a persistent object system that will serve the needs of a wide
+variety of target applications including hardware and software CAD
+systems, persistent programming languages, geographic information
+systems, satellite data repositories, and multi-media applications.
+Shore expands on the basic capabilities of the widely-used
+EXODUS
+Storage Manager (developed at Wisconsin, funded by
+ ARPA ) in a number of
+ways including support for typed objects, multiple programming
+languages, a "Unix-like" hierarchical name space for named objects, and
+a Unix-compatible interface to objects with a "text" field. This
+interface is intended to ease the transition of applications from the
+Unix file system environment to Shore as existing Unix tools such as vi
+and cc will be able to store their data in Shore objects without
+modification (basically a Unix file becomes either a single Shore
+object or the text field of a more complex object).
+
+
+Overview:
+
+SHORE is something of a hybrid system by nature, inheriting
+characteristics both from object-oriented database systems and from
+file systems.  This section briefly describe the basic features of
+SHORE.  The paper,
+
+Shoring Up Persistent Applications,
+describes SHORE in much greater detail.
+
+SHORE has three major goals:
+
+Scalability
+Support for hardware and language heterogeneity
+Support for existing, file-based applications
+
+
+When the SHORE project began 3 years ago, these goals were unique
+among the research and commercial OODBMS community.  While the
+ ODMG effort 
+has also concentrated on providing some degree of support for language
+heterogeneity (which, in turn, facilitates hardware heterogeneity),
+SHORE remains distinguished by its focus on scalability and support
+for applications that depend on the Unix file system for persistent
+storage.  Furthermore, since the SHORE data model (SDL) is basically
+
+compatible with the ODMG data model (ODL),
+we expect that much of the technology that we develop can eventually be
+transferred to the commercial sector.
+
+Scalable Architecture
+SHORE's software architecture is unique is several ways.
+First, SHORE uses a symmetric, peer-to-peer distributed
+architecture.  In SHORE, every participating processor runs a
+SHORE server process whether or not the processor has SHORE data disks
+attached.  The software has been designed to be scalable;
+it can run on a single processor, a network of workstations, or
+a large parallel processor such as the Intel Paragon or IBM SP1/2.
+This design is in contrast to the client-server architecture
+used by EXODUS and all the OODBMS vendors.  While a client-server
+architecture is fine for a design environment such as is typically
+used in software and hardware CAD efforts, it is not scalable.
+
+The second unique feature of the SHORE architecture is its notion
+of a ``value-added'' server.  By structuring the software that runs
+in the server with extensibility in mind, it is relatively simple for
+users to build application-specific servers.  For example, the
+
+Paradise project 
+is already using the SHORE server to build a geographic information system for
+ NASA's
+EOSDIS project.
+
+
+We feel that these two unique pieces of technology will play a
+important role in a variety of future research and commercial endeavors.
+For example, the digital libraries of the future will almost certainly
+depend on the availability of scalable, persistent object technology.
+Such systems are going to store, retrieve, manipulate, and transmit
+objects containing video and pictures as well as text.  While
+current OODBMS products could be used, these systems are oriented
+toward dealing with gigabytes, and not terabytes, of data.
+Customizability is equally important.  The indexing, retrieval,
+and query processing mechanisms needed for a digital library
+are very different from those required for a geographic information
+system.
+
+Language and Hardware Heterogeneity
+
+Objects in SHORE are typed.  SHORE provides a single, language-neutral
+type system that is used to define the types of all SHORE objects.
+This type system is embodied in the SHORE Data Language (SDL),
+which is the language in which SHORE object types are defined.
+SDL enhances the OMG data model IDL with support for database
+features such as bulk types (e.g., sets and lists) and persistence.
+The provision of typed persistent objects simplifies the task of
+supporting heterogeneous hardware environments and makes it feasible
+to support access to persistent objects from multiple programming
+languages, which is a key objective of the SHORE project.
+As mentioned earlier, SDL is quite closely related to ODL,
+the language-neutral object type definition language that was
+recently proposed as a standard by the OODB vendor consortium ODMG.
+In terms of its emphasis, however, ODMG has largely concentrated on
+providing a standardized interface to existing C++ oriented OODBs.
+Our focus is on support for inter-language object sharing within
+a large name-space of objects.
+
+Support for Existing, File-based Applications
+
+A major goal of SHORE is to enable applications that currently
+use untyped, byte-oriented files for their persistent data,
+flattening and un-flattening their data each time it is accessed,
+to stop doing so.
+Such applications should be able to store their data as typed, structured
+objects for more convenient, type-safe, intra- and inter-program data sharing.
+Our ultimate hope is that SHORE will displace byte-oriented
+file systems such as the Unix file system.
+
+SHORE provides two major services from a file system standpoint.  First,
+to support object naming and space management in a world with many
+persistent objects, SHORE provides a flexible, tree-structured,
+Unix-like name-space in which all persistent objects are reachable,
+either directly or indirectly.  Doing so gives SHORE users
+a familiar framework in which to register individual
+persistent objects (termed "registered" objects), the roots of
+large persistent data structures, or bulk sets of unnamed objects (termed
+"anonymous" objects).  The realization of this framework involves
+several different kinds of SHORE file system objects, including
+directories, pools (which are files containing anonymous objects),
+symbolic links, and cross references.
+
+SHORE provides two mechanisms to ease the transition of legacy Unix
+applications such as compilers, editors, and CAD systems from
+traditional byte-stream files to SHORE.
+First, for applications that can be re-linked, SHORE provides a standard
+Unix-compatible file system interface  (e.g. open, close, read,
+write, mkdir, chdir,.).
+In order to make access to SHORE objects via Unix file system calls
+possible, the definer of a SHORE object type can optionally designate one
+variable-length byte string or character string attribute of the object as
+being the object's "Unix data".  Programs that attempt to read an object
+through SHORE counterparts of the Unix file system calls
+will only see this portion of the object. For legacy programs that
+wish to do so without being re-linked, it is possible to NFS-mount a
+SHORE file system and access the Unix data
+contained in its objects directly.  This makes it feasible for both
+new and old applications to access the same set of objects.
+While old applications can only access the "Unix data" component
+of the object, new applications can define and access other, more
+structured, attributes of the object.
+
+
+
+
+Release Information:
+
+Below is the latest time table for the release of SHORE. 
+These dates are approximate and subject to change.
+If you have any questions, contact 
+
+shore_support@cs.wisc.edu.
+
+
+ Beta Release (0.9)
+On May 3, 1995 we had our first beta release.
+
+ Beta Release (0.9.3)
+
+The second Beta-rlease of Shore (version 0.9.3)
+ is now available (Sept 18, 1995).
+It includes improved documentation, more complete
+implementations of many SDL features, many bug fixes, and ports to
+Solaris, HP-UX, Linux.
+
+ Version 1.0 
+On August 6, 1995 we released Shore, version 1.0.
+Gzip'd tar files of the source, documentation and a binary release (sparc and
+pentium solaris 2.5), can be found at
+
+ftp://ftp.cs.wisc.edu/shore/1.0/
+.
+
+
+
+
+Mailing Lists
+
+There are two Shore-related mailing lists: 
+
+shore_support@cs.wisc.edu
+
+and 
+
+shore_all@cs.wisc.edu
+.
+
+
+shore_support@cs.wisc.edu
+This mailing list reaches the Shore development team.  
+It is for use
+by Shore users to submit questions, comments, and bug reports to us.
+You cannot subscribe to this mailing list.
+
+
+ shore_all@cs.wisc.edu 
+This is a mailing list for users of (and those interested in) SHORE.
+This list is managed by the listproc software at the UW-Madison
+CS department.  It is currently unmoderated, but in the unlikely
+event that it gets cluttered with junk mail we will moderate it.
+mail messages.  If you are interested in the list, but your mailbox is
+already too cluttered, you can sign up for weekly digests.  See below
+for more information.  More information about the list will be sent
+when you subscribe.  
+
+ Purpose of shore_all 
+
+ Notifying interested parties of new releases and other changes in the Shore ftp archive
+ Requests for help from other users 
+
+
+By default, replies will be sent only to the sender, rather than being
+posted to the entire list.  If you want the entire list to see your
+reply, just copy the reply to shore_all.
+
+
+This list is an public mailing list.  Thus, anyone may
+subscribe to it.  Only subscribers may post to the list.  The existence
+of this list is shown in the listing returned by listproc when
+it processes a LISTS request.  When you subscribe, your
+subscription is "concealed" by default.  That is, other subscribers
+cannot obtain the membership list from the listproc system.  
+
+ Subscribing to shore_all 
+
+To subscribe or to change your subscription, you must mail a special
+message to: listproc@cs.wisc.edu.
+
+ To subscribe, the content of the message should look like this:
+    subscribe shore_all 
+ To receive weekly digests (rather than individual messages), send
+this along with your subscription (or send it in a separate
+ message):
+    set shore_all mail digest
+ To un-subscribe, the content of the message should be:
+    unsubscribe shore_all
+ To get help on the list processor, the content of the message
+should be: 
+    help
+
+
+Last Modified:
+Mon Mar 18 10:41:39 CST 1996
+
+
+
+Nancy Hall
+/ nhall@cs.wisc.edu.
+
+
+
+
+Footnotes: 
+... compatibility with ODL
+SHORE and ODMG concurrently decided to use the OMG data model
+IDL as the starting point for their data models.  Hence SDL and ODL
+are very similar to one another.  Once ODL stabilizes
+we can convert SDL to be 100% compatible with ODL.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

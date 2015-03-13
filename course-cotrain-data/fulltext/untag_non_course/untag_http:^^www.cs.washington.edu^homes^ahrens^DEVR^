@@ -1,0 +1,85 @@
+
+
+
+Database Environment for Vision Research
+
+
+ Database Environment for Vision Research 
+
+
+
+
+
+
+
+ Overview  
+
+The Database Environment for Vision Research was
+designed as a general scientific database system, but motivated by and
+intended for use in model-based computer vision. We provide a unified
+data model, a highly graphical user interface, an advanced query
+facility and an interactive laboratory notebook. The Database
+Environment for Vision Research aids in scientific experimentation and
+promotes data sharing in the computer vision community.  
+
+In DEVR, entities are stored in hierarchical, relational data
+structures.  The schema for each entity contains a name, a set of
+properties, a set of parts, a set of attributed relations among the
+parts and a set of graphic definitions which describe how to build
+instance-specific visualizations.
+
+
+ We are studying many different image database research topics including: 
+
+ Visual Interfaces  
+ Multi-Level Queries  
+ Experiment Management  
+
+
+ People 
+
+ 
+ Principal Investigators 
+
+
+  Linda Shapiro 
+  Steven Tanimoto 
+  Jim Brinkley 
+
+
+ Graduate Students 
+
+
+  James Ahrens 
+   Rex Jakobovits 
+ Lara Lewis
+
+
+
+ Publications 
+
+  Linda G. Shapiro, Steven L. Tanimoto, James F. Brinkley, James P. Ahrens,
+ Rex M. Jakobovits and Lara M. Lewis, 
+A Visual Database System for Data and Experiment Management in
+Model-Based Computer Vision,  Proceedings of the Second
+CAD-Based Vision Workshop, February 1994.  Presents an overview of the DEVR project.
+ 
+  Lara Lewis, Linda Shapiro,
+Steven Tanimoto,  Flexible
+Data Organization with Visualization Support for a Visual Database
+System ,  IS / SPIE Symposium on Electronic Imaging: Science
+and Technology , February 1995.  
+
+
+  Rex Jakobovits, Linda Shapiro, Steven Tanimoto,  Implementing Multi-level Queries in a Database Environment for Vision Research ,  IS / SPIE Symposium on Electronic Imaging: Science and Technology , February 1995. 
+ 
+
+
+
+
+ 
+
+email: ahrens@cs.washington.edu 
+Last modified: 2/29/96
+
+

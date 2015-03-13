@@ -1,0 +1,87 @@
+
+
+Home Page for Philip A. Hardin
+
+
+
+
+
+
+
+
+
+Philip Hardin
+
+
+
+
+
+
+
+About Me
+
+
+
+
+*************************************************************
+*                                                           *
+* I plan to eliminate all bugs in all software, everywhere. *
+*                                                           *
+*************************************************************
+
+
+
+
+
+But failing that, my fallback plan is to write a few games.
+
+
+BattleBall(223k) is now accessible through this page!
+The binary executable file is for the AIX 3.2 operating system, and unfortunately that's the only OS for which it's available (I want to port it to SunOS/Solaris, but I'm working and going to school...who has the time?)
+
+
+BattleBall is a 3-D multiplayer game I wrote which runs
+under X Windows.  It's about 7000 lines of C++ code that uses the C++
+Standard Template Library and
+A. T. Campbell's Binary Space Partition (BSP) tree library.
+The image at the top of this page is a screenshot from BattleBall.
+
+
+I'm a student here at the University of Texas at Austin in the (you guessed it) Computer Sciences department.  I'm interested in two research areas:
+Geometric modeling/graphics
+
+ the BSP tree - a really cool geometric model, and my main research interest
+ CS 384G Computer Graphics
+
+Software reuse/engineering
+
+ Software Systems Generator Research Group
+ CS 395T Automatic Programming
+
+
+
+To Contact Me
+
+
+EMAIL   pahardin@cs.utexas.edu
+
+POSTAL  Computer Sciences C0500
+        TAY 2.124, U.T. Austin
+        Austin TX 78712 USA
+
+NETREK  servers:  pita.nms.unt.edu, curly.cc.utexas.edu
+        handle:   DigitalDisaster
+                  (just look for the guy getting plastered, that's me)
+
+
+
+
+
+
+
+
+Congradulations!  You are the 
+th smartest person in
+the universe.
+
+

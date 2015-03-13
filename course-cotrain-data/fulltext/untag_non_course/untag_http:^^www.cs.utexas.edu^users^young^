@@ -1,0 +1,67 @@
+David M. Young
+
+ 
+David M. Young
+
+
+Ashbel Smith Professor; Professor of Computer Sciences; Professor of
+Mathematics; Director, Center for Numerical Analysis 
+
+B.S. (1944) 
+Webb Institute of Naval Architecture 
+
+M.S. in Mathematics (1947), Ph.D. in Mathematics (1950) 
+Harvard University 
+
+
+
+Honors, Awards, and Professional Service
+
+
+ Fellow, American Association for the Advancement of Science
+ ACM Award for Outstanding Contribution to Computer Science, 1990
+ Journal of Linear Algebra and Its Applications, Special Issue
+Dedication, 1992
+ Chair, Applied Mathematics Committee, American Mathematical
+Society, 1961-64
+ Board of Trustees, Argonne Universities Association, 1975-81
+ Associate Editor, SIAM Journal of Matrices and Matrix
+Applications, 1989-91
+
+
+
+Areas of Interest
+
+Numerical analysis, partial differential equations, and numerical
+linear algebra 
+
+
+Summary of Research
+
+My research activity focuses on the numerical solution of partial
+differential equations based on the use of finite difference methods
+and on the use of iterative methods to solve associated systems of
+linear algebraic equations involving matrices which are very large and
+sparse. Several computer software packages have been developed based
+on this research as part of the ITPACK project. The research is being
+extended to include methods suitable for shared memory and distributed
+memory parallel computers. More rapidly convergent iterative methods
+based on the use of parallel multilevel procedures are also being
+developed. 
+
+
+Selected Recent Publications
+
+D. M. Young and D. R. Kincaid, "Linear stationary second-degree methods for the solution of large linear systems," in Topics in Polynomials of One and Several Variables and Their Applications, Th. M. Rassias, H. M. Srivasiava, and A. Yanushauska, eds. World Scientific Publ. Company, Singapore, pp. 609-629, 1993. 
+
+D. M. Young and B. R. Vona, "On the use of rational iterative methods for solving large sparse linear systems," Applied Numerical Mathematics, vol. 10, pp. 261-278, 1992. 
+
+D. M. Young and T. Mai, "The search for omega," Iterative Methods for Large Linear Systems, D. Kincaid et al., Eds. Academic Press, 1990. 
+
+D. M. Young, G. Carey, D. Kincaid, and K. Sepehrnoori, "Vector and parallel iterative solutions of large sparse systems for PDEs," Science and Engineering on Cray Computers, Minneapolis: Cray Research, pp. 215-243, 1989. 
+
+D. M. Young, "The search for Ôhigh level' parallelism for iterative sparse linear systems solvers," Parallel Supercomputing: Methods, Algorithms, and Applications,  Graham Carey, Ed. John Wiley and Sons, 1989. 
+
+Previous profile 
+Index 
+Next profile 

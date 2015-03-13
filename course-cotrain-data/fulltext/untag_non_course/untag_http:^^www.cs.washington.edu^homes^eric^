@@ -1,0 +1,100 @@
+
+
+
+	Eric Anderson's Home Page
+
+
+  
+Eric J. Anderson
+
+
+
+
+
+
+Where to find me:
+
+
+ UW: 
+ Sieg Hall 427
+ Department of Computer Science & Engineering
+ University of Washington
+ Box 352350
+ Seattle, WA 98195-2350
+ (206) 543-5118
+
+
+ Home (new!): 
+ 1812 N. 38th Street
+ Seattle, WA 98103
+ (206) 632-8067
+
+
+ Why this page is no longer black
+ In honor of the recent (June 12)
+decision
+in ACLU v. Reno, this page is no longer black.  Mind you, the
+decision is merely an interim step (you could read my 
+take on it), so I'm probably still committing a 
+felony.
+(And so should we all, if we care about speech and freedom and the
+marketplace of ideas.)
+
+
+ Facts About Me 
+
+
+I'm a third-year graduate student in computer science.  That means I
+mostly panic about my quals project.
+
+
+
+I'm also trying to write some papers with 
+Prof. Henry Greenside
+of Duke University
+(and recently finished a 
+master's thesis 
+by myself) on
+steady-state solutions of a particular nonlinear biharmonic PDE.
+Because the stability criterion for explicit methods is so restrictive
+(a fourth power of the spatial resolution), implicit timestepping
+methods such as backwards Euler are necessary.  The numerical analysis
+issues involve Newton's method for solving the implicit nonlinear
+equations, sparse matrix solution methods for solving for the Newton
+step, and some interplay between them.
+
+And the pictures   can be really spiffy.
+
+
+I'm working on an n-body code for 
+astrophysics simulation.  This work is in 
+support of a project on 
+data structures
+by Prof. Richard Anderson
+
+
+I'm working on a signal processing/computer music 
+project aiming at automatic 
+transcription from an acoustic signal.  Prof.
+Anna Karlin is
+the musician who got me interested in this project.
+
+
+ Like everybody else, I've got a page of 
+applets.  (This first link is just text and small graphics.)
+
+
+
+Like everybody else, I've got a page of 
+snapshots, mostly family.  (I can now prove I've got all those brothers.)
+
+
+ Finally, here's the weather in Seattle.
+
+
+
+
+eric@cs.washington.edu 
+meanders@u.washington.edu 
+27 Sept 1996 
+

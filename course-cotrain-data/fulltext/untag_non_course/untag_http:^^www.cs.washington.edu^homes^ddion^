@@ -1,0 +1,130 @@
+
+
+
+	Home Page of David Dion
+
+
+
+
+ 
+David Dion 
+
+ddion@cs.washington.edu
+
+
+
+
+ Personal 
+
+Yeah right, like I'd put anything personal here.  Okay, maybe a 
+ little.
+
+ Academics 
+
+ Current Research:  
+For the past year I have been working with 
+Brian Bershad.
+My primary responsibility is the construction of a UNIX server for the
+SPIN
+operating system.  SPIN is an operating system on which applications 
+can achieve impressive performance by dynamically extending the kernel.  
+Safety and protection are maintained at the language level, as SPIN and 
+its extensions are written in  
+
+Modula-3.
+
+
+
+The user-level SPIN UNIX server is a slight variant of a DEC OSF/1 Unix 
+server, which thinks it is running on Mach.  SPIN dynamically linked 
+extensions are used to intercept OSF/1 system calls and to emulate a 
+Mach kernel environment.
+
+
+
+Previous Research:  SPIN is not the first extensible system I have
+worked on.  In my undergraduate 
+studies at Notre Dame I helped 
+implement user-level memory management for an extensible communications 
+subsystem.
+
+
+
+ Web Stuff 
+
+I'm afraid I don't have the time to sit around and surf the Web,
+so I wouldn't claim to know about all the cool stuff out there.  I
+promise to do more surfing as soon as I have Netscape-enhanced
+this page (don't hold your breath).  Meanwhile, these are some of the 
+sites I visit occasionally for work and for distraction.
+
+
+
+University of Washington
+	 Computer Science and Engineering: the reason I'm in Seattle.
+
+University of Washington: 
+	 UW homepage, featuring an up-to-date view of campus weather 
+	conditions.
+
+
+	SPIN: what occupies the vast majority of my time.
+
+
+	Modula-3: the language I use for most of my programming these
+	days.
+
+GDB Debugging
+	Manual: how I've solved countless problems.
+
+University of Notre Dame:  my
+	 undergraduate institution.
+
+Notre Dame 
+	 Bands: my undergraduate life.
+
+Notre Dame Trumpet Section:
+	 more of my undergraduate life.
+
+CSE 
+	 Racquetball Ladder: my main outlet for athletics.
+
+ESPN Sportzone: how I
+	stay in touch with the sports world.
+
+USA Today: how I stay in
+	touch with the rest of the world.
+
+Dilbert:
+	how I learn about the real world.
+
+Restaurants:
+	fine Seattle eateries, as recommended by others in computer 
+	science here
+	at UW.
+
+Movies:
+	  Seattle regional movie listings.
+
+Transportation:  an 
+	 on-line guide to Seattle's excellent public transportation system.
+
+Current
+	 Traffic Conditions: current status of Seattle's infamous 
+         traffic.
+
+Seattle Mariners: the
+         first Major League Baseball team with a web page. 
+
+L. L. Bean: the only shopping
+         Web page I will visit.
+
+
+
+
+
+
+	David Dion 
+	Last modified:  Monday 1 April 1996
+
+

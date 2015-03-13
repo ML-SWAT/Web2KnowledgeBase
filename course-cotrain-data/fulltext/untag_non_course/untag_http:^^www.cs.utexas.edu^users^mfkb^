@@ -1,0 +1,134 @@
+UT Knowledge-Based Systems Group
+
+
+
+
+
+Knowledge-Based Systems Group
+
+
+
+
+
+      
+              Bruce Porter    Rich Mallory    Peter Clark
+     Art Souther        Fred Prado   Charles Callaway
+
+    and (not shown above): Carl Andersen, Steve Correl.
+Overview
+
+Our group is part of the 
+Department of Computer Sciences at
+Univ. Texas at Austin.
+The long-term goal of our research is to develop technology for
+constructing and using large, multifunctional knowledge bases on
+computers.  These knowledge bases would significantly improve current
+expert systems and tutoring systems because they contain the broad
+knowledge of a domain required to perform multiple tasks and to
+explain domain knowledge from multiple viewpoints.
+
+During the past eight years, we have built a large knowledge base in
+one area of biology, and developed methods for automatically answering
+a variety of questions using the knowledge base.  Containing about
+180,000 facts concerning 30,000 concepts, our knowledge base is one of
+the largest of its kind (i.e. its content is structured and formally
+represented).  In addition to expanding this knowledge base, we are
+also beginning to construct similar knowledge bases in other domains,
+most notably, the domain of Distributed Computing.
+
+We are especially encouraged by the results from using our knowledge
+base for a variety of AI tasks.  Most recently, James Lester used the
+biology knowledge base to test his system for explanation generation.
+The system generated about 60 explanations, expressed in English,
+concerning biological objects and events.  In a controlled experiment,
+domain experts found little difference between these explanations and
+those written by their colleagues.  
+
+Currently, we are extending the types of questions that can be
+answered using automated reasoning with a large knowledge base.  Jeff
+Rickel developed a method for "compositional modeling", the task
+of constructing a model appropriate for answering a prediction
+("what-if") question.  Performing this task well requires building the
+simplest model that can adequately answer the question - a daunting
+requirement since knowledge bases like ours implicitly contain MANY
+models at numerous levels of detail.  The Qualitative Process Compiler
+and QSIM are used to simulate the models built by Jeff's program.
+
+Finally, we are testing the generality of our research results by
+building a knowledge base in another domain - distributed computing
+environments (focussing on OSF's DCE) - to construct a help-desk
+assistant for automatically answering a proportion of customer's
+questions which would otherwise be phoned in to a normal help-desk.
+
+Research Projects
+
+Our completed and ongoing research projects include:
+
+ KM/KQL 
+	- our knowledge representation language,
+ KnEd 
+	- the knowledge base editor,
+ BKB 
+	- the biology knowledge base,
+ KASTL 
+	- the viewpoint retriever,
+ KNIGHT 
+	- explanation and text planning,
+ FARE
+        - natural language generation of text plans,
+ LexEd
+        - computer-aided maintenance for KB lexicons,
+ TRIPEL 
+	- compositional modeling for answering prediction questions,
+ Help-Desk Assistant 
+	- the DCE Help-Desk Assistant project.
+
+
+Researchers
+
+
+ Bruce Porter
+	(porter@cs.utexas.edu)
+ Rich Mallory
+	(mallory@cs.utexas.edu)
+ Art Souther
+	(souther@cs.utexas.edu)
+ Charles Callaway
+	(theorist@cs.utexas.edu)
+ Fred Prado (prado@cs.utexas.edu)
+ Carl Andersen (searcher@cs.utexas.edu)
+ Steve Correl (correl@cs.utexas.edu)
+
+
+Recent alumni and alumnae:
+
+ Liane Acker (acker@austin.ibm.com)
+ Erik Eilerts
+	 (eilerts@cs.utexas.edu)
+
+ 	Ray Bareiss     (bareiss@ils.nwu.edu)
+ Brad Blumenthal
+ Karl Branting
+	   (karl@eolus.uwyo.edu)
+ Peter Clark
+	(clarkp@redwood.rt.cs.boeing.com)
+ 
+	James Lester (lester@adm.csc.ncsu.edu)
+ Ken Murray (murray@cyc.com)
+ Jeff Rickel (rickel@isi.edu)
+
+
+Publications
+
+Click 
+here to see some selected publications from our group.
+
+Other Related KB Projects
+
+Click here
+for an extensive collection of pointers to other KB projects around
+the world.
+
+
+
+porter@cs.utexas.edu

@@ -1,0 +1,117 @@
+
+
+
+
+
+PSP group at UT Austin
+
+
+
+PSP Group at UT Austin
+
+This is the home page for the PSP group in the Department of Computer Sciences at The University of Texas at
+Austin. PSP stands for Programs,
+Specifications and Proofs.  The emphasis of the work of our group is to derive
+parallel and distributed programs in a rigorous manner. The group is
+supervised by Jayadev Misra, who developed the theories
+ we work on. The research areas are: UNITY,
+Powerlists and Seuss. 
+
+Current and former members of the group
+include:
+
+
+ Jayadev Misra
+ Will Adams
+ Al Carruth
+ Ernie Cohen  (graduated 1992)
+ Rajeev Joshi
+ Markus Kaltenbach (graduated 1996)
+ Edgar Knapp (graduated 1992)
+ Jacob Kornerup
+ Ingolf Krger (graduated 1996)
+ Josyula R Rao (graduated 1992)
+ Mark Staskauskas (graduated 1992)
+
+
+
+
+Publications
+
+Below we summarize the areas we work in; wherever possible we give links to
+papers that are available electronically. 
+
+
+ UNITY 
+
+UNITY is a programming notation and a logic to reason about parallel and
+distributed programs. Unity is presented in the book: J. Misra and K.
+M. Chandy, Parallel Program Design: A Foundation,
+Addison-Wesley, 1988. 
+
+The notes on UNITY is a series of
+papers presenting various results about UNITY and its applications. The
+notes assumes a basic understanding of the UNITY theory as presented in
+Chandy and Misra's book. 
+
+Since the publication of the book several improvements have been made in
+the theory, some of which are reflected in the notes on UNITY, Jayadev Misra has written a
+manuscript for a book that presents the New
+UNITY, this includes the introduction of a new temporal operator
+co for specifying safety.
+
+See further UNITY references for
+references to other papers and implementations.
+
+Markus Kaltenbach is currently writing a
+symbolic model checker for
+finite state UNITY programs, called the UNITY
+Verifier (UV).
+
+Al Carruth has extended the UNITY logic to
+include real time aspects of computing and hybrid systems.
+
+ Powerlists 
+
+Powerlists is a notation for synchronous parallel programs and circuits.
+The data structure is a list of length equal to a power of two, with two
+different operations for balanced divisions of lists. Many parallel
+algorithms have a succinct presentation  and simple proofs in the
+powerlist notation. Jayadev Misra's paper Powerlists:
+A Structure for Parallel Recursion presents the notation and gives
+numerous examples of algorithms and proofs of their correctness,
+including the Fast Fourier Transform and Batcher's sorting network.
+
+Will Adams has studied how different arithmetic circuits, such as
+adders and multipliers, can be specified and proved correct in the
+powerlist notation. His paper Verifying adder
+circuits using powerlists is available.
+
+Jacob Kornerup has studied how powerlist programs
+can be mapped efficiently to different parallel architectures, specially
+hypercubes.  See his List of
+papers for details.
+
+ Seuss 
+
+Seuss is an offspring of the work on UNITY. It addresses the issue of
+program composition, by restricting how program components can
+interfere with each other. For an introduction to Seuss, read the Overview of Seuss.  A few chapters from
+a monograph A
+Discipline of Multiprogramming written by Jayadev Misra are also
+available. A compiler for Seuss that genrates C++ code and PVM calls
+for message communicating networks is described in the thesis An
+experiment in compiler design for a concurrent object-based
+programming language of Ingolf
+Krger.
+
+ FTP site 
+Many of the above papers can be found in the
+PSP ftp-site
+
+
+
+
+Jacob Kornerup
+
+

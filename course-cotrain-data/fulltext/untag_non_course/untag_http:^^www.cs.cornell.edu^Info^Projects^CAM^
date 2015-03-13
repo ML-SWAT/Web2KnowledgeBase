@@ -1,0 +1,185 @@
+
+Cornell Active Messages
+
+
+Cornell Active Messages 
+
+
+Cornell Active Messages Implementations
+
+Active Messages for U-Net
+A source-code release of U-Net Active Messages is part of the
+general U-Net release. It conforms to the GAM-1.1 spec below. For more
+information, see the U-Net project pages.
+
+Active Messages for the IBM SP-2 An object-code
+release of SP2 AM for AIX 3.2 is available in gam-1.0.aix3.tar.Z. It conforms to the
+GAM-1.1 spec below.  Please read README and INSTALL files in the distribution for instructions
+on using SP2 AM.  For more information contact: Chi-Chao Chang, Grzegorz Czajkowski, Thorsten von Eicken.
+
+Please read the ReleaseNotes.aix3 file
+to find out about the changes from the previous version. The current
+version of SP2 AM is 1.0f. 
+
+Also, there is a release for AIX 4.1.: gam-1.0.aix4.tar.Z. The major difference
+between the AIX 4.1 release to the 3.2 is a modified
+/usr/lpp/ppe.poe/lib/us/libmpci.a, which is included in the
+distribution.  Please read the documentation in the package for
+details.
+
+We are interested in knowing who is currently using SP2 AM.  Please
+click here to send a brief
+note letting us know something about you, your organization, and the
+uses you intend for SP2 AM.
+
+
+Selected Publications on Active Messages
+
+
+Low-Latency Communication on the IBM
+RISC System/6000 SP Chi-Chao Chang, Grzegorz Czajkowski,
+Chris Hawblitzel, and Thorsten von Eicken, to appear in ACM/IEEE
+Supercomputing '96, Pittsburgh, PA, November 1996.
+
+
+
+Abstract:
+
+The IBM SP is one of the most powerful commercial MPPs, yet, in spite
+of its fast processors and high network bandwidth, the SP's
+communication latency is inferior to older machines such as the TMC
+CM-5 or Meiko CS-2. This paper investigates the use of Active Messages
+(AM) communication primitives as an alternative to the standard
+message passing in order to reduce communication overheads and to
+offer a good building block for higher layers of software. 
+The first part of this paper describes an implementation of Active
+Messages (SP AM) which is layered directly on top of the SP's network
+adapter (TB2).  With comparable bandwidth, SP AM's low overhead yields
+a round-trip latency that is 40% lower than IBM MPL's.  The second
+part of the paper demonstrates the power of AM as a communication
+substrate by layering Split-C as well as MPI over it. Split-C
+benchmarks are used to compare the SP to other MPPs and show that low
+message overhead and high throughput compensate for SP's high network
+latency.  The MPI implementation is based on the freely available
+MPICH version and achieves performance equivalent to IBM's MPI-F on
+the NAS benchmarks.
+
+Design and Performance of Active Messages on the 
+SP-2
+Chi-Chao Chang, Grzegorz Czajkowski, and Thorsten von Eicken,
+Cornell CS Technical Report 96-1572, February 1996.
+
+Abstract:
+
+This technical report describes the design, implementation, and
+evaluation of Active Messages on the IBM SP-2.  The implementation
+benchmarked here uses the standard TB2 network adapter firmware but
+does not use any IBM software on the Power2 processor.  We assume
+familiarity with the concepts underlying Active Messages.  The main
+performance characteristics are a one-word message round-trip time
+of 51.0 us and an asymptotic network bandwidth of 34.3 MB/s.
+After presenting selected implementation details, the paper focuses
+on detailed performance analysis, including a comparison with IBM's
+Message Passing Layer (MPL) and Split-C benchmarks.
+
+
+Generic Active Message Specification, Version 1.1.
+
+
+The Generic Active Message Specification, Version 1.1 defines an Active
+Messages interface which is portable across a variety of parallel machines.
+Implementations are available for the
+U-Net ATM cluster,
+the
+Meiko CS-2,
+the
+HPAM FDDI ring,
+the
+Paragon,
+and the
+
+SP-2.
+
+
+Low-Latency Communication over ATM Networks
+using Active Messages.
+Thorsten von Eicken, Veena Avula, Anyndia Basu, Vineet Buch,
+Presented at Hot Interconnects II,
+Aug 1994, Palo Alto, CA.
+An abridged version of this paper appears in IEEE Micro Magazine, Feb. 1995.
+
+
+Slides from Hot Interconnect talk.
+
+Abstract:
+
+Recent developments in communication architectures for
+parallel machines have made significant progress and reduced the
+communication overheads and latencies by over an order of magnitude as
+compared to earlier proposals. This paper examines whether these
+techniques can carry over to clusters of workstations connected by an
+ATM network even though clusters use standard operating system
+software, are equipped with network interfaces optimized for stream
+communication, do not allow direct protected user-level access to the
+network, and use networks without reliable transmission or flow
+control.
+
+In a first part, this paper describes the differences in
+communication characteristics between clusters of workstations built
+from standard hardware and software components and state-of-the-art
+multiprocessors. The lack of flow control and of operating system
+coordination affects the communication layer design significantly and
+requires larger buffers at each end than on multiprocessors. A second
+part evaluates a prototype implementation of the low-latency Active
+Messages communication model on a Sun workstation cluster
+interconnected by an ATM network. Measurements show
+application-to-application latencies of about 20 microseconds for small
+messages which is roughly comparable to the Active Messages
+implementation on the Thinking Machines CM-5 multiprocessor.
+
+
+Active Messages: a Mechanism for Integrated Communication and
+Computation.
+von Eicken, T., D. E. Culler, S. C. Goldstein, and K. E. Schauser,
+Proceedings of the 19th Int'l Symp. on Computer Architecture,
+May 1992, Gold Coast, Australia.
+
+
+Abstract
+
+The design challenge for large-scale multiprocessors is (1) to
+minimize communication overhead, (2) allow communication to overlap
+computation, and (3) coordinate the two without sacrificing
+processor cost/performance.  We show that existing message passing
+multiprocessors have unnecessarily high communication costs.  Research
+prototypes of message driven machines demonstrate low communication
+overhead, but poor processor cost/performance.  We introduce a simple
+communication mechanism, Active Messages, show that it is
+intrinsic to both architectures, allows cost effective use of the
+hardware, and offers tremendous flexibility.  Implementations on nCUBE/2
+And CM-5 are described and evaluated using a split-phase shared-memory
+extension to C, Split-C.  We further show that active messages
+are sufficient to implement the dynamically scheduled languages for
+which message driven machines were designed.  With this mechanism,
+latency tolerance becomes a programming/compiling concern.  Hardware
+support for active messages is desirable and we outline a range of
+enhancements to mainstream processors.
+
+
+Active Messages: an Efficient
+Communication Architecture for Multiprocessors. von Eicken, T.,
+Ph.D. Thesis, November 1993, University of California at Berkeley.
+
+
+
+
+Projects at other sites
+
+Active Messages
+in the Berkeley NoW project
+
+
+
+For further information contact
+Thorsten von Eicken
+
