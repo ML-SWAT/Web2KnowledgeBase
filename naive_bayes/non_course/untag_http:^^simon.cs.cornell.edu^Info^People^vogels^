@@ -1,0 +1,138 @@
+
+Werner Vogels
+
+ 
+
+
+
+
+
+
+
+ Werner Vogels 
+researcher
+
+4105a Upson Hall
+Dept. of Computer Science
+Cornell University, 
+Ithaca, NY, 14850
+
+
+Phone: 607-255-9199
+Fax  : 607-255-4428
+Email: vogels@cs.cornell.edu
+
+
+
+
+
+
+
+	
+	In protocol design, perfection has been reached not when there is nothing
+	left to add, but when there is nothing left to take away.
+	
+
+
+
+
+I am involved with two of the major systems projects at the Cornell Computer Science Department: The
+
+Horus
+and the 
+ Cornell ATM Cluster Projects. I think my
+research interests are best described by: 
+
+
+	
+	Low latency and high bandwith communication support for 
+	highly reliable distributed systems with real time requirments.
+	
+
+
+I focus on the system design and engineering issues. Some of the things I am
+working on:
+
+A highly predictable execution environment for Horus. The integration of Horus
+with some Real-Time environments needs to lead to a situation where we can 
+reason about advanced operational guarantees.
+
+Mechanisms for efficient data transfers between high-speed 
+network devices and the application level. Low latency for all messages 
+and high bandwidth with small messages are two issues that 
+have fallen behind in the software design for high-speed network adapters.
+
+High-speed Cluster Communication protocols. Once you achieve the desired low-latency
+for your message passing system, you will see that your old protocols
+are not able to exploit this, and you will need to re-think their structure
+and interaction patterns.
+
+Methods for dealing with guarantee failures (aka 
+missed deadline support). It is not bad to not be able to meet the 
+guarantes you gave, it is bad to not tell anyone about it.
+
+Acurate Failure Detection. If we want to take our distributed systems to a
+global scope, there is a need to find a generic mechanism to support
+failure suspision, detection and management of processes, nodes and networks.
+From our experience with group systems we can extract a mechanism that will work
+with any middleware package, regardless of its functionality.
+
+
+Horus is the brainchild of  
+
+Robbert van Renesse  and
+
+Ken Birman. The ATM Cluster work is done cooperation with
+
+Thorsten von Eicken and the Multimedia & Video-On-Demand Horus
+experiments are in concert with 
+
+Brian Smith.
+
+I am responsible for 
+CS 515, 
+ a Practicum in Distributed Systems, and teach a number of lectures
+on network protocols and high-speed network technology in 
+CS 514: 
+Practical Distributed Systems.
+
+
+Recent publications:
+
+
+
+World Wide Failures, Werner Vogels, 
+To appear in the Proceeding of the 1996 ACM SIGOPS Workshop
+Connamoran, Ierland, 
+September 1996.
+
+
+Structured Virtual Synchrony: Exploring the Bounds of Virtually
+Synchronous Group Communication.
+Katherine Guo, Werner Vogels, Robbert van Renesse, 
+To appear in the Proceeding of the 1996 ACM SIGOPS Workshop
+Connamoran, Ierland,
+September 1996.
+
+
+
+U-Net: A User-Level Network Interface
+for Parallel and Distributed Computing,
+Anindya Basu, Vineet Buch, Werner Vogels, Thorsten von Eicken,
+Proceedings of the 15th ACM Symposium on Operating 
+Systems Princples, Copper Mountain, December 1995.
+
+
+
+Delivering High-Performance Communication to the Application-Level.
+Werner Vogels and Thorsten von Eicken, in the Proceeding of 
+the Third IEEE Workshop on the Architecture and Implementation
+of High Performance Communication Subsystems (HPCS'95), August 1995.
+
+
+Horus: A Flexible Group Communications System ,
+Robbert van Renesse, Kenneth P. Birman, Brad Glade, Katie Guo, Mark 
+Hayden, Takako Hickey, Dalia Malki, Alex Vaysburd and Werner Vogels, 
+CS-TR 95-1500, March 23, 1995.
+
+
