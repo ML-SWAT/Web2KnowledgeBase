@@ -1,0 +1,103 @@
+
+
+Jim Bednar
+
+
+Jim Bednar
+
+
+
+ PhD. Candidate, Dept. of Computer Sciences, The University of Texas at Austin. 
+
+
+
+ M.A. in Computer Science, University of Texas at Austin, Austin, Texas, May 1997.
+ B.A. in Philosophy, University of Texas at Austin, Austin, Texas, May 1994.
+ B.S. in Electrical/Computer Engineering, University of Texas at Austin, Austin, Texas, December 1993.
+
+
+
+
+
+Research  
+My research concentrates on biologically realistic modeling of
+cognitive processes using artificial neural networks.  I seek to use
+the dramatic advances in computing technology over the past few
+decades to make equally dramatic advances in our understanding of the
+human mind.  With the computing power now available and soon to be
+available, realistic simulations of cortical processing are becoming
+practical.  This enables us to make (and, if necessary, refute)
+testable hypotheses about brain function.  The overall goal is to make
+cognitive research into an empirical science, rather than the purely
+philosophical domain it has been for centuries.
+
+
+My master's thesis, ``Tilt Aftereffects in a Self-Organizing Model of
+the Primary Visual Cortex'', is nearly complete.  The abstract:
+
+
+	Visual illusions and aftereffects have long been studied by
+	psychologists and vision researchers because these apparent functional
+	failures might offer insight into how visual processing is carried out
+	by the brain.  A particular class of visual illusions called tilt
+	illusions and tilt aftereffects are thought to arise in the primary
+	visual cortex of humans, and thus serve as test cases for theories
+	about that area of the brain.  Specifically, several researchers have
+	proposed that they result from lateral inhibition between neurons
+	receiving visual input. 
+
+		
+
+	The thesis examines tilt illusions and aftereffects in 
+	
+	RF-LISSOM (Sirosh and Miikkulainen, 1995), a self-organizing model 
+	of the primary visual cortex that incorporates such lateral interactions.  
+	It is demonstrated that the self-organizing principles driving RF-LISSOM
+	result in aftereffects which are qualitatively and quantitatively
+	similar to those measured in humans.  On the basis of these results,
+	a new explanation for so-called ``indirect effects'' (interactions
+	between lines with very different orientations) is proposed in the
+	thesis.  The self-organizing model should also apply to other figural
+	aftereffects, such as spatial frequency aftereffects, which we predict
+	result from the same lateral interaction processes.
+
+
+A preliminary report of the research is available as 
+a PostScript file.  I am also beginning my doctoral research,
+which will include further simulations of detailed low-level visual
+behavior, using an extension of the RF-LISSOM model.
+
+
+
+
+Contact Information 
+
+
+  Email:    jbednar@cs.utexas.edu  
+  Mailing address: 
+  The University of Texas at Austin 
+  Department of Computer Sciences , 
+ TAY  2.124
+   Austin ,  TX   78712-1188 
+
+ Information from the  finger  command
+
+ Machines  I am logged into in this department
+
+My resume, in  Postscript or  ASCII format
+
+
+ Links to the Web   (Probably outdated.)
+
+ Old Papers   (Not too interesting.)
+
+
+
+
+
+
+jbednar@cs.utexas.edu 
+
+Last updated: July 9, 1996
+
+

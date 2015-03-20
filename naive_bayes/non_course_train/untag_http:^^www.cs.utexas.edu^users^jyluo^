@@ -1,0 +1,258 @@
+
+
+
+
+
+Jianying Luo's Homepage
+
+
+
+<!-- Beginning of JavaScript Applet -------------------
+function scrolframe(seed)
+{      
+        var msg="Welcome to Jianying Luo's Homepage!";
+        var out = " ";  var c   = 1;
+        if (seed > 100)
+        {               seed--;
+                var cmd="scrolframe(" + seed + ")";
+                timerTwo=window.setTimeout(cmd,100);
+        }
+        else if (seed <= 100 && seed > 0)
+                {
+                        for (c=0 ; c < seed ; c++)
+                        {
+                                out+=" ";
+                        }
+                                out+=msg;
+                                seed--;
+                                var cmd="scrolframe(" + seed + ")";
+                                window.status=out;
+                                timerTwo=window.setTimeout(cmd,100);
+                        }
+                                else if (seed <= 0)
+                        {
+                                if (-seed < msg.length)
+                                {
+                                        out+=msg.substring(-seed,msg.length);
+                                        seed--;
+                                        var cmd="scrolframe(" + seed + ")";
+                                        window.status=out;
+                                        timerTwo=window.setTimeout(cmd,100);
+                                }
+                                else
+                                        {
+                                        window.status=" ";
+                                        timerTwo=window.setTimeout("scrolframe(100)",75);
+
+                        }
+                }
+}
+// -- End of JavaScript code ---------------->
+
+
+
+
+
+
+
+
+
+Welcome to Jianying Luo's Homepage! 
+
+
+
+
+
+ 
+
+
+  About Me 
+
+ I am a first year Ph.D. Student in
+Department of Computer Sciences,
+The University of Texas at
+Austin.
+
+
+
+
+
+
+
+
+
+ B.S.(Computer Science), 
+Peking University
+,  Beijing,
+P.R.China, 1996
+
+
+
+
+
+
+  Peking University Alumni 
+
+
+
+
+
+
+
+
+
+
+Computer Science Department of Peking University 
+
+Other departments of
+Peking University
+
+
+
+
+
+
+
+ China and Chinese
+
+
+
+
+
+
+
+Chinese Scenery
+
+
+Chinese Novels
+
+Chinese Classics
+
+Chinese Magazines
+
+Chinese Newspapers
+
+
+
+
+
+
+
+Useful 
+links
+
+
+
+
+
+
+ UT Registrar
+
+
+ UT Gradaute Studies
+
+UT Library
+
+UT 
+Campus
+
+UTACCESS
+
+
+
+
+
+
+About Austin
+ 
+
+
+
+
+
+
+
+What's the Weather Today?
+
+Austin City
+Limits, lots of exciting stuffs about Austin. 
+
+
+
+
+
+Miscellaneous
+
+
+
+
+
+
+
+
+Yahoo
+
+
+Java Page at Sun
+
+
+JavaScript Page at Netscape
+
+
+The Perl Language Home Page
+
+
+Computing Research Association
+
+
+
+Computer Journals/Magzines on the Web
+
+
+Networked Computer Science Technical
+Reports Library
+
+
+
+The Collection of Computer Science Bibliographies
+
+
+
+International Students, Inc.
+
+
+
+
+
+
+
+Contact Me
+
+
+
+  307 E 31st Street, Apt 107,
+Austin, Texas 78705
+
+
+  (512) 476-6770(H)
+
+
+
+  jyluo@cs.utexas.edu 
+
+ 
+ 
+   Finger me
+
+
+
+
+Your comments and suggestions
+would be highly appreciated.
+
+You are the th visitor
+since October 10, 1996.
+
+
+
+

@@ -1,0 +1,141 @@
+
+
+
+
+
+
+
+
+
+Home Page for Marco Schneider
+
+
+
+
+
+
+
+
+
+
+Marco Schneider
+
+
+
+
+
+Ph.D. candidate, 
+Department of Computer Sciences
+ at  
+The University of Texas at Austin
+
+
+Research
+The title of my dissertation is
+ "Flow Routing in Computer Networks".
+My research interests lie in the areas of network protocols, distributed 
+computing, fault-tolerance, and in particular self-stabilizing systems.
+ 
+
+Implicit in the design of any system is a labeling of its
+states as "legitimate" or "illegitimate". We identify as "legitimate" 
+those states which occur under the correct (intended) execution of a system.
+All other states are considered "illegitimate". 
+A system is said to be self-stabilizing when
+regardless of its initial state, it is guaranteed to converge to
+a legitimate state in a finite number of steps. A system
+which is not self-stabilizing may stay in an illegitimate state 
+forever. 
+
+
+  My vita in Postscript 
+
+
+
+
+
+
+
+
+Publications 
+
+
+  "Self-Stabilization" .
+ ACM Computing Surveys, Vol. 25, No. 1, March 1993.
+
+
+  
+     ``Self-Stabilizing Real-Time Decision Systems'' . 
+In  Responsive Computer Systems: Steps Toward Fault-Tolerant
+Real-time Systems,  Kluwer Academic Publishers, 1995.
+An earlier version appeared in 
+ Proceedings of The Third International Workshop on Responsive Computer 
+Systems, October 1993.
+
+
+
+``Stabilization of Maximum Flow Trees''. Invited talk:  
+Proceedings of the Third Annual Joint Conference on Information Sciences,
+November 1994. Submitted to  Information Sciences Journal.
+Co-authored with Mohamed G. Gouda.
+
+
+ ``Maximum Flow Routing''. 
+ Proceedings of The Second Workshop on Self-Stabilizing Systems, 
+1995. Co-authored with Mohamed G. Gouda.
+
+
+ ``Minimum Depth Flow Routing''. In preparation, 1995.
+Co-authored with Mohamed G. Gouda and Anish Arora. 
+
+
+  
+     ``Memory Requirements for Silent Stabilization'' .
+To appear in  The Fifteenth ACM Symposium on Principles of 
+Distributed Computing, 1996. 
+Co-authored with Shlomi Dolev and Mohamed G. Gouda.
+
+
+ ``Stabilization of Minimum Spanning Trees''. In preparation, 1995.
+Co-authored with Mohamed G. Gouda. 
+
+
+ ``Implementing Flow Routing on the Internet''. In preparation, 1996.
+To be Co-authored with Mohamed G. Gouda.
+
+
+
+
+
+
+
+Personal Interests 
+
+ Here is a  list of links. (under construction)
+
+
+
+
+ Contact Information
+
+ Office:
+ Taylor Hall 150A, (512) 471-9763
+ Email:
+ marco@cs.utexas.edu
+ Postal Address:
+ The University of Texas at Austin 
+Department of Computer Sciences C0500
+Taylor 2.124 
+Austin, TX 78712-1188 USA
+
+
+
+
+
+marco@cs.utexas.edu
+
+
+
+
+
+

@@ -1,0 +1,77 @@
+
+
+ Project Rocky: The Architectural Performance of Interpreted 
+   Languages
+
+
+ Project Rocky: The Architectural Performance of Interpreted 
+   Languages 
+
+Project Description
+
+  Interpreted languages have become increasingly popular over the last
+  several years, due in part to the demands for portability, safety,
+  and ease of use.  This project examines the performance of interpreted
+  languages and environments from several perspectives: interpretation
+  strategy, implementation, and processor/architecture utilization.
+  As a basis for our study, we have collected a set of benchmarks and
+  microbenchmarks which are implemented in several interpreted
+  languages -- Perl, Tcl, Java, and MIPSI.  Using various
+  instrumentation and tracing techniques, we evaluate the performance
+  characteristics of those benchmarks in order to gain insight into
+  the similarities and differences in these languages and their
+  execution environments.
+
+
+People
+
+
+Faculty:
+
+ Jean-Loup Baer (baer@cs.washington.edu)
+ Brian Bershad (bershad@cs.washington.edu)
+ Henry Levy (levy@cs.washington.edu)
+
+
+Students:
+
+ Dennis Lee (dlee@cs.washington.edu)
+ Ted Romer (romer@cs.washington.edu)
+ Geoff Voelker (voelker@cs.washington.edu)
+ Alec Wolman (wolman@cs.washington.edu)
+ Wayne Wong (waynew@cs.washington.edu)
+
+
+
+Papers
+
+Romer, Lee, Voelker, Wolman, Wong, Baer, Bershad, and Levy,
+The Structure and Performance of Interpreters, ASPLOS VII, to appear.
+
+Abstract
+postscript
+Java measurements on x86
+Java source files for benchmarks
+
+
+Tools
+
+To collect information on the performance of x86 applications, we've
+been building a binary rewriting tool called Etch.  Etch is not yet
+publicly available, but you can read about it on the Etch
+home page.
+
+Internal Documentation
+
+Project internal documentation (available only to people from UW CSE).
+
+
+
+
+
+
+
+
+Last updated July 24, 1996. 
+romer@cs.washington.edu
+
