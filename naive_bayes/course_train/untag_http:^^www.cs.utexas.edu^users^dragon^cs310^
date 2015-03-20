@@ -1,0 +1,622 @@
+ CS310 Fall 1996 
+
+
+
+
+ Computer Organization and Programming  
+     CS310 (Fall 1996) 
+
+
+
+ This page is constantly under construction:
+Last Update on
+Mon Dec  9 14:22:23 CST 1996
+
+
+
+
+<!-- ----------------------------------------------------------------------
+  --
+  -- 	Title : CS310
+  --
+  -- ---------------------------------------------------------------------- --!>
+
+
+
+
+ Course   	 CS310 
+  
+ Title 		 Computer Organization and Programming 
+
+ Prerequisite 	 CS315 with a grade of at least C 
+
+ Professor	 Chris Edmondson-Yurkanan (dragon@cs.utexas.edu)
+
+
+
+
+
+
+<!-- ----------------------------------------------------------------------
+  --
+  -- 	What's new
+  --
+  -- ---------------------------------------------------------------------- --!>
+
+ Important Dates  
+12/17 FINAL EXAM (10am lecture): WED 12/11 9-noon ** TAY 2.106 **, 
+TUES 12/17 in ** TAY 2.106 **. 
+See  handout #40  
+............................................. 
+12/11 FINAL EXAM (9am lecture): WED 12/11 9-noon WEL 2.246 
+See  handout #40 
+............................................. 
+ News  
+............................................. 
+12/9  Program #5 Example solution posted: 
+  see the Program Solution section 
+............................................. 
+
+12/6  Exam objectives (for the final) :  Handout 40
+: check out the extra office hours. 
+............................................. 
+11/15 Fantasm page is up : visit now!
+............................................. 
+11/10 Fantasm FAQ: V1.2 : updated version (11/10/96)
+  
+............................................. 
+
+
+
+<!-- ----------------------------------------------------------------------
+  --
+  -- 	Contents
+  --
+  -- ---------------------------------------------------------------------- --!>
+
+ Contents 
+ 
+	 Class Info
+	  
+	    Meeting Time and Place (lectures and 
+		discussion sessions)
+	    Professor 
+	    TAs 
+	   Course Operations (info, syllabus & grading info.)
+	  
+	 Calendar 
+	  
+	   Important Dates
+	    Lecture, homework, test schedule at a glance 
+	  
+	 Lectures 
+	 Handouts (Class notes, Homeworks, 
+		Programming Assignments)
+	 Discussion Sessions
+	 Resources
+	  
+	    utexas.class.cs310  
+		newsgroup
+	   Homework Solutions 
+	   Programming Solutions
+	   Tests and Solutions 
+	   Programming Resources
+	    Old Exams and Study Guide
+	  
+
+
+<!-- ----------------------------------------------------------------------
+  --
+  -- 	Meeting
+  --
+  -- ---------------------------------------------------------------------- --!>
+
+
+ Meeting Time and Place (lectures and discussion sessions) 
+
+
+
+
+ Time  		Place 
+		Unique 	Discussion Session
+		TA
+ 
+ MWF 9am-10am   TAY 2.006 
+		 47465   TH 930-1030 ECJ 1.214
+		Yoonsuck Choe
+ 
+   
+		 47470   TH 930-1030 PAI 3.14
+		Ge Zhang
+ 
+   
+		 47475   TH 1100-1200 PAI 3.14
+		Ge Zhang
+ 
+   
+		 47480   TH 1230-130p PAI 3.14
+		Deepa Ramani
+ 
+ MWF 10am-11am   TAY 2.006 
+		 47485   TH 1230-130p RLM 5.216
+		Cynthia He
+ 
+   
+		 47490   TH 200-300p PAI 3.14
+		Yoonsuck Choe
+ 
+   
+		 47495   TH 330-430p PAI 3.14
+		Deepa Ramani
+ 
+   
+		 47500   TH 500-600p PAI 3.14
+		Cynthia He
+
+
+
+
+|Back to Contents|
+
+<!-- ----------------------------------------------------------------------
+  --
+  -- 	Professor
+  --
+  -- ---------------------------------------------------------------------- --!>
+
+ Professor
+
+
+
+Professor  Chris Edmondson-Yurkanan (your-cannon)  
+
+Office  TAY 3.148; 471-9546 
+
+email dragon@cs.utexas.edu 
+
+office hours  TU 1030-1200p, TH 1030-1130p 
+
+
+|Back to Contents|
+
+<!-- ----------------------------------------------------------------------
+  --
+  -- 	TAs
+  --
+  -- ---------------------------------------------------------------------- --!>
+
+ TAs 
+
+	All TA office hours are located in PAI 3.04N. You may go to ANY of the
+	TA office hours.  There are no TA office hours on Thursday.
+	Attend the discussion sections you are registered for.
+	
+
+
+TA email office hours (& place) 
+
+ 
+Yoonsuck Choe yschoe@cs.utexas.edu
+M 1230-130p, TU 230-4p (PAI 3.04N) 
+
+Cynthia He cxh@cs.utexas.edu
+M 330-500p, TU 1230-130p (PAI 3.04N) 
+
+Deepa Ramani dparam@cs.utexas.edu
+W 300-430p, F 1200-100p (PAI 3.04N) 
+
+Ge Zhang gzhang@cs.utexas.edu
+F 100-330p (PAI 3.04N) 
+
+
+	For discussion sessions conducted by each TA, please go 
+	to  "Meeting Time and Place" .
+
+|Back to Contents|
+
+<!-- ----------------------------------------------------------------------
+  --
+  -- 	Calendar
+  --
+  -- ---------------------------------------------------------------------- --!>
+
+ Calendar 
+
+	
+  	 Important Dates 
+	
+		 9/2 : Labor day holiday
+		 9/3 : Last day to add using TeX
+		 9/13: 12th class day : last day to drop using TeX,
+		last day to drop with a refund, last day to add w/o rare or
+		extenuating circumstances.
+		 9/14 : Automatic Q drop period begins
+		 9/25 : Last day to drop a course w/o academic penalty,
+		Q/F period starts
+		 10/23 : Last day to drop a course for academic reasons,
+		Last day to withdraw from the University, Last day to change 
+		registration in a course to or from pass/fail, Deadline to 
+		apply for graduation.
+		 11/28-30 : Thanksgiving holiday
+		 12/6 : Last class day, last day to appeal for a
+		non-academic drop or withdrawal.
+	
+	
+  	 Lecture, homework, test schedule at a glance
+	
+		 9/4 :  Homework #1 (correct version) due by 9/9 
+		Monday 10am 
+		 Typo in HW#1 : 2-(d) (2)&(4), 4-(2)&(4) : 
+		It has 9 bits in all, so remove the rightmost bit to make 
+		it 8 bits.
+		 9/11 :  Homework #2 due by 9/16 
+		Monday 10am 
+		 9/16 :  Program #1(part 1) 
+		due by 9/25 Wednesday 10am. Early date 9/24 Tues TAY 3.148 
+		11am (5% bonus)
+		 9/18 :  Program #1(part 2) 
+		 9/25 :  Program #2(part 1) 
+		due by 10/4 Friday 10am. Early date 10/3 Thursday , 
+		Late date 10/5 Saturday : TAY 3.148 
+		 9/27 :  Program #2(part 2) 
+		 9/27 :  Homework #3 
+		due by 10/2 Wednesday 10am.
+		 10/2 :  Program #2 and Exam 1 
+		Objectives  
+		 10/3 :  Homework #3 Solution 
+		 10/4 :  Practice Problems 
+		 10/8 :  NIGHT EXAM 1 : 7-9pm WEL 2.224 
+		 10/11 :  Program #3(part 1) 
+		due by 10/21 Monday 10am. Late due : 10/22 11am TAY3.148(-15%)
+		 10/16 :  Exam#1 Solution 
+		 10/16 :  Program #3 Announcements
+		 : Due date changed to 10/24(Thu) 11am,
+		TAY 3.148 (slide it under the door).
+		Early date (+5%) 10/23(Wed) 10am, TAY 2.006. 
+		Late date(-15%) 10/25(Fri) 10am TAY 2.006. 
+		Late date(-30%) 10/28(Mon) 10am TAY 2.006. 
+		 10/21 : 
+		Program #3 Testing/Turn-in procudure 
+		 10/25 : 
+		Program #4 
+		Wed Nov 6th 10a.m. 100%, Thurs Nov 7th 11a.m. 90%,
+		Fri Nov 8th 10a.m. 80%.
+		 11/8 :  Exam 2 (11/13 Wednesday
+		7-9pm, WEL 2.224) objectives 
+		 11/8 : Exam 2 practice problems : not available 
+			electroncally
+		 11/20: 
+			Program #5 : 
+			Wed Dec 4th (early) 10am TAY 2.006, 
+			Thu Dec 5th (100%) 11am TAY 3.148,
+			Fri Dec 6th (90%) 10am TAY 2.006.
+		 12/11: Final Exam 9-noon : see  
+			Exam objectives . 
+			9am lecture - WEL 2.246, 10am lecture - TAY 2.106.
+		 12/17: Final Exam 9-noon : see 
+			Exam objectives .
+			TAY 2.106
+
+	
+
+|Back to Contents|
+
+<!-- ----------------------------------------------------------------------
+  --
+  -- 	Lectures
+  --
+  -- ---------------------------------------------------------------------- --!>
+
+ Lectures
+ 
+	See Handouts. 
+
+|Back to Contents|
+
+<!-- ----------------------------------------------------------------------
+  --
+  -- 	Handouts
+  --
+  -- ---------------------------------------------------------------------- --!>
+
+ Handouts (class notes, homeworks, and programming assignments)
+ 
+If handouts are not available electronically, please check the box
+in front of Prof. Yurkanan's office (TAY 3.148). 
+ Class Handouts 
+ 
+	 8/28 Handout 0: Letter to students 
+	 8/28 Handout 1: Overview description of 
+		the course topics 
+	 8/28 Handout 2: Course operations 
+	 8/30 Lecture note: Day3, slides 1 - 12 (single page).
+	 8/30 Ascii code chart
+	 9/4  Handout 3: Home Work#1: due by 
+		Monday 9/9 10am in class 
+		 Typo in HW#1 : 2-(d) (2)&(4), 4-(2)&(4) : 
+		It has 9 bits in all, so remove the rightmost bit to make 
+		it 8 bits.
+	 9/9  Handout 4:  Class Info: Office Hours
+		and Discussion Sections 
+	 9/11 Handout 5:  Homework #2 : due 
+		by 9/16 Monday 10am.
+	 9/13 Handout 6: Endianess & Memory Hierarchy (not available electronically. Pick it up from
+		the box in front of TAY 3.148)
+	 9/16 Handout 7:
+		 Program #1(part 1) 
+		due by 9/25 Wednesday 10am. Early date 9/24 Tues TAY 3.148 
+		11am (5% bonus)
+	 9/18 Handout 8:
+		 Program #1(part 2) 
+	 9/25 Handout 9:  Program #2(part 1) 
+		due by 10/4 Friday 10am. Early date 10/3 Thursday TAY 3.148 
+		11am (5% bonus), Late date 10/5 Saturday 4pm TAY 3.148: 
+		SUBMIT WHAT YOU HAVE!!!
+	 9/27 Handout 10: Program #2(part 2) 
+	 9/27 Handout 11: Homework #3 
+		due by 10/2 Wednesday 10am.
+	 10/2 Handout 12:  Program #2 and Exam 1 
+		Objectives  
+	 10/3 Handout 13:  Homework #3 Solution
+	
+	 10/4 Handout 14:  Practice Problems  
+	 10/11 Handout 15:   
+	Program #3(part 1) due by 10/21 Monday 10am. Late due : 
+	10/22 11am TAY3.148(-15%)
+	 10/16 Handout 16:  Exam#1 Solution 
+	 10/16 Handout 17:  
+	Program #3 Announcements  : Due date changed to 10/24(Thu) 11am,
+		TAY 3.148 (slide it under the door).
+		Early date (+5%) 10/23(Wed) 10am, TAY 2.006. 
+		Late date(-15%) 10/25(Fri) 10am TAY 2.006. 
+		Late date(-30%) 10/28(Mon) 10am TAY 2.006. 
+	 10/21 Handout 18: 
+		Program #3 Testing/Turn-in procudure 
+	 10/24 Handout 19: 
+		Fantasm User's Manual : also available in the 
+		[System Disk]->[Fantasm]->[f96.io.v1.0], documents folder
+		in the PAI Powermacs (not the old Quadras).
+	 10/24 Handout 20:  Fantasm
+		program example: also available on the PAI macs: start.s and
+		P4_globals.s
+	 10/25 Handout 21: 
+		Program #4 
+		Wed Nov 6th 10a.m. 100%, Thurs Nov 7th 11a.m. 90%,
+		Fri Nov 8th 10a.m. 80%.
+	 10/28 Handout 22: Class note - pick up from TAY 3.148
+	 10/30 Handout 23: Class note - Passing parameters (using registers
+		and stack), Function : not available electronically. Pick
+		it up from TAY 3.148.
+	 10/30 Handout 24: 
+		Examples of Parameter passing 
+	 10/31 Handout 25: (discussion section) 
+		Macsbug Instructions
+	 11/1 Handout 26: 
+		 IMPORTANT FANTASM INFO and TURN-IN Requirements
+	 11/8 Handout 27: Comments on Real Compilers and Proc/Func calls:
+		Class note - pick up from TAY 3.148
+	 11/8 Handout 28: Example of how a compiler might use 
+		32 registers (in a RISC architecture) including some 
+		for call by value parameter passing:
+		Class note - pick up from TAY 3.148
+	 11/8 Handout 29:  Exam 2 (11/13 Wednesday
+		7-9pm, WEL 2.224) objectives 
+	 11/8 Handout 30: Exam 2 practice problems : 
+			not available 
+			electroncally - pick up from TAY 3.148
+	 11/8 Handout 31: Exam 2 practive problems - solution: 
+			not available 
+			electroncally - pick up from TAY 3.148
+	 11/18 Handout 32:  Program #5  : obsolete - 
+		see Handout 33.
+	 11/20 Handout 33: 
+			Program #5 Spec and Turnin procedure: 
+			Wed Dec 4th (early) 10am TAY 2.006, 
+			Thu Dec 5th (100%) 11am TAY 3.148,
+			Fri Dec 6th (90%) 10am TAY 2.006.
+	 11/xx Handout 34: ??
+	 11/xx Handout 35: ??
+	 11/25 Handout 36: Programming model for a generic disk DMA
+		interface. Not available electoronically - pick up from 
+			TAY 3.148.
+	 11/25 Handout 37: Problem with the character oriented model.
+		Not available electoronically - pick up from 
+			TAY 3.148.
+	 12/4 Handout 38: Exam #2 solution.
+		Not available electoronically - pick up from 
+			TAY 3.148.
+	 12/11 Handout 40: 
+			Exam objectives .  12/11 9-noon: 
+			9am lecture - WEL 2.246, 10am lecture - TAY 2.106.
+			 12/17 9-noon: TAY 2.106
+
+
+ Discussion Session Handouts 
+
+	 8/29 Cheating Policy 
+	 8/29 Questionaire 
+	 10/3 Handout 13:  Homework #3 Solution
+	 10/24 Fantasm User's Manual: 
+		User's Manual : also available in the 
+		[System Disk]->[Fantasm]->[f96.io.v1.0], documents folder
+		in the PAI Powermacs (not the old Quadras).
+	 10/24 Example program: 
+		also available on the PAI macs: start.s and
+		P4_globals.s
+	 10/31  Macsbug Instructions
+
+
+
+|Back to Contents|
+
+<!-- ----------------------------------------------------------------------
+  --
+  -- 	Discussion Sessions
+  --
+  -- ---------------------------------------------------------------------- --!>
+
+ Discussion Sessions 
+
+	You must go to the discussion sessions you are officially registered
+	for. No exceptions other than going to other discussion sessions
+	held by the same TA who you are registered for.
+	
+	See the meeting time & place and
+	 Handout 4 for more info.
+
+|Back to Contents|
+
+<!-- ----------------------------------------------------------------------
+  --
+  --
+  -- 	Resources ! 
+  --
+  --
+  -- ---------------------------------------------------------------------- --!>
+<!-- ----------------------------------------------------------------------
+  --
+  -- 	newsgroup
+  --
+  -- ---------------------------------------------------------------------- --!>
+ utexas.class.cs310 Newsgroup
+ The class newsgroup is at
+ utexas.class.cs310
+
+
+|Back to Contents|
+<!-- ----------------------------------------------------------------------
+  --
+  -- 	Homework Solutions
+  --
+  -- ---------------------------------------------------------------------- --!>
+
+ Homework Solutions
+
+	 
+		  Homework #1 Solution 
+		  Homework #2 Solution 
+		  Homework #3 Solution 
+
+	
+
+|Back to Contents|
+<!-- ----------------------------------------------------------------------
+  --
+  -- 	Programming Solutions 
+  --
+  -- ---------------------------------------------------------------------- --!>
+
+ Programming Solutions
+
+	You are free to use these solutions towards your next 
+	programming assignment.
+	 
+		 Program #1 example solution (Thanks to Brett James): 
+			 Pascal source, 
+			 Output (test #1), 
+			
+			 Test #2 data, and
+			
+			 Output (test #2).
+		 Program #2 example solution: 
+			 Pascal Source,
+			 
+			Test #2 output 
+			NEW :  
+			C++ Source 
+		 Program #4 example solution:
+			 
+			4.1 P4_globals.s,	
+			
+			4.1 start.s	
+			 
+			4.2 P4_globals.s,	
+			
+			4.2 start.s	
+			 
+			4.3 P4_globals.s,	
+			
+			4.3 start.s	
+		 Program #5 example solution:
+			
+			5.1 P4_globals.s 
+			 
+			
+			5.1 start.s
+			 
+			
+			5.1 macsbug log
+			 
+			
+			5.2 P4_globals.s
+			 
+			
+			5.2 TB.bcf
+			 
+			
+			5.2 start.s
+			 
+			
+			5.2 subroutine_file.s
+			 
+			
+			5.2 exception_file.s
+			 
+	
+
+|Back to Contents|
+<!-- ----------------------------------------------------------------------
+  --
+  -- 	Tests and solutions! 
+  --
+  -- ---------------------------------------------------------------------- --!>
+
+ Tests and Solutions
+
+	 
+		 Exam #1 Solution
+		 Exam #2 Solution: See handout #38 - not avaliable 
+			electronically: pick up from TAY 3.148.
+	
+
+|Back to Contents|
+<!-- ----------------------------------------------------------------------
+  --
+  -- 	Programming resources
+  --
+  -- ---------------------------------------------------------------------- --!>
+ Programming Resources
+
+	Check out the new Fantasm Page.
+
+|Back to Contents|
+<!-- ----------------------------------------------------------------------
+  --
+  -- 	Old exam and study guide
+  --
+  -- ---------------------------------------------------------------------- --!>
+
+ Old Exams and Study Guide
+
+
+	 Check out  Handout #12:Exam Objectives 
+		(Exam 1)  and 
+	Handout #14: Practice Problems.
+	  Handout #29: Exam Objectives (Exam 2)
+		, Handout #30: Practice problems (not available electronically)
+	 Handout #40: Exam Objectives (Exam 3)
+
+
+|Back to Contents|
+
+<!-- ----------------------------------------------------------------------
+  --
+  -- 	Okay, the trailer goes here.
+  --
+  -- ---------------------------------------------------------------------- --!>
+This page is maintained by 
+Yoonsuck Choe (yschoe@cs.utexas.edu)
+
+| UT Austin 
+| UTCS
+| 

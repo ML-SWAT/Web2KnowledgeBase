@@ -1,0 +1,75 @@
+
+
+  Wisconsin Wind Tunnel Project Home Page 
+
+
+
+
+
+
+Wisconsin Wind Tunnel Project
+
+
+
+
+Most future massively-parallel computers will be built from
+workstation-like nodes and programmed in high-level parallel
+languages--like HPF--that support a shared address space in which
+processes uniformly reference data.
+
+The Wisconsin Wind Tunnel (WWT) Project seeks to develop a consensus about
+the middle-level interface--below languages and compilers and above
+system software and hardware.  Our first proposed interface was
+
+Cooperative Shared Memory, which is an evolutionary extension to
+conventional shared-memory software and hardware.  Recently, we have
+been working on a more revolutionary interface called 
+Tempest.
+Tempest provides the mechanisms that allow programmers, compilers, and
+program libraries to implement and use message passing, transparent
+shared memory, and hybrid combinations of the two.  We are developing
+implementations of Tempest on a Thinking Machines CM-5, a cluster of
+workstations (Wisconsin
+COW), and a hypothetical hardware platform.  One approach on COW
+uses bus snooping logic, implemented with 
+FPGAs and SRAM.
+We are collaborating
+with the 
+Wisconsin Paradyn Project to adapt their performance tools to Tempest.
+
+ Overview
+and  Annotated Bibliography
+
+ Slides from an Overview Talk (November 1995)
+with one slide per page
+or four slides per page
+
+ Complete Technical Papers
+
+ Contributors
+
+ Funding Sources
+
+ Origin of Project Name
+
+ Wisconsin Week Article on WWT & Paradyn
+
+ Related Projects
+
+ 
+Wisconsin CS's Computer Architecture Group
+
+ Computer Sciences Department
+at the University of Wisconsin
+
+ 
+World-Wide Computer Architecture Information
+
+
+
+
+
+ Last Updated: 6 July 1995 by Mark D. Hill (markhill@cs.wisc.edu) 
+
+
+

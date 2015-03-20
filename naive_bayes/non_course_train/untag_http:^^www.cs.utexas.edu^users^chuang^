@@ -1,0 +1,129 @@
+
+
+Welcome to the Homepage of Chin-Tser Huang 
+
+<!-- Beginning of JavaScript Applet -------------------
+function scrolframe(seed)
+{
+      var msg="Welcome to Chin-Tser Huang's Homepage.. Your comments and suggestions are welcomed!!";
+      var out = " ";  var c   = 1;
+      if (seed > 100)
+      {               
+              seed--;
+              var cmd="scrolframe(" + seed + ")";
+              timerTwo=window.setTimeout(cmd,100);
+      }
+      else if (seed <= 100 && seed > 0)
+      {
+                    for (c=0 ; c < seed ; c++)
+                    {
+                        out+=" ";
+                    }
+                        out+=msg;
+                        seed--;
+                        var cmd="scrolframe(" + seed + ")";
+                        window.status=out;
+                        timerTwo=window.setTimeout(cmd,100);
+      } 
+      else if (seed <= 0)
+      {
+                    if (-seed < msg.length)
+                    {
+                        out+=msg.substring(-seed,msg.length);
+                        seed--;
+                        var cmd="scrolframe(" + seed + ")";
+                        window.status=out;
+                        timerTwo=window.setTimeout(cmd,100);
+                    }
+                    else
+                    {
+                        window.status=" ";
+                        timerTwo=window.setTimeout("scrolframe(100)",75);
+                    }
+      }
+}
+// -- End of JavaScript code ---------------->
+ 
+
+
+
+
+
+
+
+
+Last updated: December 24th, 1996
+
+
+
+
+Education
+
+ June 12th, 1993
+	B.S. Degree, Dept. of Computer Science & Information Engineering,
+	National Taiwan University,
+	Taipei, Taiwan.
+
+Currently I am a Master's student in Department of Computer Sciences, The University of Texas at Austin.
+
+
+Research Interests
+
+ Natural Language Processing, Human-Computer Interface 
+ Network, Distributed Systems
+
+
+
+Experience
+I ever worked in Chinese Knowledge Information Processing Group, Institute
+of Information Science, Academia Sinica as a research assistant. My major work
+is to design a system capable of word segmentation and category tagging using
+Hidden Markov Model, and to improve a user-friendly tool allowing user to
+execute on-line proof-reading of the result of automatic tagging. The automatic
+tagging system now can reach an accuracy of 96%, which can be further improved
+because of the continuous expansion of training data.
+
+
+Personal Interests
+
+
+Movies, Books and Music.
+Literature and Semiology. 
+Baseball, Basketball, Table Tennis.
+PINBALL!! 
+
+
+
+Favorite Sites
+
+
+China Times
+MinSheng Daily
+The New York Times
+USA Today
+The Economist
+The Atlantic Monthly
+
+
+Make Contact
+
+910 E. 40th St. APT#B203
+   Austin, Texas 78751
+
+(512)302-5629 (FAX), (512)467-6707
+
+chuang@cs.utexas.edu
+
+Finger me
+
+
+
+
+
+
+
+
+
+You are the  visitor.
+
+

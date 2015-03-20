@@ -1,0 +1,66 @@
+
+EXODUS Project Home Page
+
+EXODUS - An Extensible Object-Oriented Database System Toolkit
+
+NOTE: Document is under construction. 
+
+
+
+
+
+The Exodus project has been succeded by the
+
+SHORE project but we still provide minimal support for users.
+
+
+Both the
+
+Exodus Storage Manager and a compiler for the E persistent
+programming language
+,
+are available via ftp on ftp.cs.wisc.edu.
+No licenses are required.
+If more information is needed contact 
+
+exodus@cs.wisc.edu
+
+
+
+Principal Investigators
+
+ Mike Carey
+ David DeWitt
+
+
+See Also:
+
+
+Publications related to EXODUS
+
+
+SHORE: the successor to EXODUS
+
+
+Latest Exodus Storage Manager and E compiler
+
+
+Contributed software for the Storage Manager
+
+
+
+A mailing list for Exodus users: 
+ exodus_all@cs.wisc.edu 
+
+OO7 Benchmark: a benchmark for OODBS
+
+
+
+Date Prepared:
+
+19 April 1994 
+
+
+Michael Zwilling / zwilling@cs.wisc.edu.
+
+

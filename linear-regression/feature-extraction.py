@@ -2,7 +2,7 @@ import glob
 from sklearn import linear_model
 from sklearn.feature_extraction.text import CountVectorizer
 
-file_list = glob.glob("../course-cotrain-data/small/untag_*/*")
+file_list = glob.glob("../course-cotrain-data/fulltext/untag_*/*")
 
 vectorizer = CountVectorizer(input='filename', stop_words='english')
 X_train = vectorizer.fit_transform(file_list)
