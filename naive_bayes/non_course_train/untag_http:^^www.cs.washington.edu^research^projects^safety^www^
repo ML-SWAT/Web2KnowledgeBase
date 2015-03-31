@@ -1,0 +1,51 @@
+
+
+Software Safety at the University of Washington
+
+
+
+
+
+
+
+      
+
+
+
+      Software is playing an increasingly important role in systems such
+      as nuclear reactors, aircraft, defence and space systems, chemical
+      plants, and medical equipment.  Because of the consequences of a
+      malfunction, these safety-critical systems must pass rigorous tests
+      and reviews before they may be used.  Although system safety engineering
+      techniques have existed for decades, most do not apply to systems that
+      contain digital computers and software. 
+
+      The goal of the University of Washington Safety Project is to develop
+      a theoretical foundation for safety and a methodology for building
+      safety-critical systems built upon that foundation.  
+      In  Safeware: System Safety and
+      Computers, Nancy Leveson summarizes the issues involved and
+      lays the foundation for the methodology.  We are now working on safety 
+      analysis techniques to support the methodology and a set of
+      prototype tools to be used to validate the specification and analysis 
+      techniques. 
+
+     
+
+
+      
+
+      
+
+      
+
+     
+
+      University of Washington | 
+      UW Computer Science
+      UW Software Engineering |
+      Other Safety Links
+
+      
+
+

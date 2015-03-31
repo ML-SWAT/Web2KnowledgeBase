@@ -1,0 +1,50 @@
+
+Cornell Split-C
+
+
+Cornell Split-C 
+
+
+Cornell Split-C Implementations
+
+Split-C for U-Net
+A source-code release of U-Net Split-C is in preparation.  It is
+implemented on top of U-Net Active Messages
+For more information contact Thorsten von Eicken.
+
+Split-C for the IBM SP-2 A source-code release of
+Split-C for the IBM SP-2 is in split-c-distr.tar.Z. It is implemented
+on top of SP2AM. For more information contact
+Chi-Chao Chang,
+Grzegorz Czajkowski, or Thorsten
+von Eicken.
+
+Split-C for SVR4 shared memory multiprocessors
+A source-code release of Split-C for Sun multiprocessors running
+Solaris is in preparation.
+For more information see Matt
+Welsh's information page.
+
+
+Selected Publications on Split-C
+
+
+Parallel Programming in Split-C. D. Culler, A. Dusseau, S.
+C. Goldstein, A. Krishnamurthy, S. Lumetta, T. von Eicken, K. Yelick,
+Proceedings of Supercomputing '93, November 1993.
+
+Abstract
+
+
+
+
+Projects at other sites
+
+Split-C
+home page at Berkeley.
+
+
+
+For further information contact
+Thorsten von Eicken
+

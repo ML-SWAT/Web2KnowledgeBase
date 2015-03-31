@@ -1,0 +1,76 @@
+
+
+
+
+	Emerald
+
+
+
+
+ The Emerald Project
+
+
+
+
+
+Ideally, the development phase of a new FPGA architecture would make
+use of a reliable set of mapping tools to produce accurate performance
+evaluations of proposed designs.  Unfortunately, given the quick
+production time frames faced by most developers, tool construction is
+often postponed until after many architectural features have been
+frozen.  To satisfy the need for fast tool prototyping, we have
+designed Emerald, a powerful architecture-driven system for quick
+development of FPGA tools.  At its heart Emerald provides the basic
+features needed in all FPGA systems -- logic block analysis, synthesis
+and technology mapping, global placement and partitioning, and
+detailed placement and routing.  Its CAD environment provides an
+efficient way to thoroughly specify an FPGA's routing and logic block
+architectures, as well as architecture-specific metrics to tailor
+placement and routing.  Moreover, Emerald's parameterized schematic
+specifications allow architectural variations to be quickly captured
+and evaluated.  
+
+
+Emerald Publications 
+
+ Any documents contained in this page are included by
+the contributing authors as a means to ensure timely dissemination of
+scholarly and technical work on a non-commercial basis.  Copyright and
+all rights therein are maintained by the authors or by other copyright
+holders, notwithstanding that they have offered their works here
+electronically.  It is understood that all persons copying this
+information will adhere to the terms and constraints invoked by each
+author's copyright.  These works may not be reposted without the
+explicit permission of the copyright holder.
+
+
+
+
+The Definitive Emerald Paper
+
+ Darren C. Cronquist and Larry McMurchie.
+
+"Emerald - An Architecture-Driven Tool Compiler for FPGAs",
+To appear in Proceedings of the 1996 ACM/SIGDA Fourth International 
+Symposium on Field-Programmable Gate Arrays  , February 1996.
+
+The Router used in Emerald
+Larry McMurchie and Carl Ebeling, 
+
+"PathFinder: A Negotiation-Based
+Performance-Driven Router for FPGAs",
+Proceedings of the 1995 ACM
+  Third International Symposium on Field-Programmable Gate Arrays
+Aided Design ,  pp. 111-117, February 1995.
+
+
+Researchers
+
+  Darren Cronquist 
+  Carl Ebeling
+  Larry McMurchie 
+
+
+
+
+

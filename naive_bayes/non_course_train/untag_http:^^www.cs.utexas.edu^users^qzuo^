@@ -1,0 +1,278 @@
+
+
+
+
+Qiang Zuo (John)'s Home Page
+
+<!-- Beginning of JavaScript Applet -------------------
+/* Copyright (C)1996 Web Integration Systems, Inc. DBA Websys, Inc.
+   All Rights Reserved.
+
+   This applet can be re-used or modified, if credit is given in
+   the source code.
+
+   We will not be held responsible for any unwanted effects due to the
+   usage of this applet or any derivative.  No warrantees for usability
+   for any specific application are given or implied.
+
+   Chris Skinner, January 30th, 1996.
+  
+   Modified by Qiang Zuo, Feb. 20, 1996
+*/
+
+function scrollit_r2l(seed)
+{
+
+        var m1  = "==> WELCOME to my home page. 8-)    ";
+        var m2  = "==> PLEASE feel free to browse around,   ";
+        var m3  = "and/or leave me any comments/suggestions/jokes.    ";
+        var m4  = "==> THANK YOU for visiting, PLEASE come again !! <====<<";
+
+        var msg=m1+m2+m3+m4;
+
+        var out = " ";
+        var c   = 1;
+
+        if (seed > 100) {
+                seed--;
+                var cmd="scrollit_r2l(" + seed + ")";
+                timerTwo=window.setTimeout(cmd,100);
+        }
+        else if (seed <= 100 && seed > 0) {
+                for (c=0 ; c < seed ; c++) {
+                        out+=" ";
+                }
+                out+=msg;
+                seed--;
+                var cmd="scrollit_r2l(" + seed + ")";
+                    window.status=out;
+                timerTwo=window.setTimeout(cmd,100);
+        }
+        else if (seed <= 0) {
+                if (-seed < msg.length) {
+                        out+=msg.substring(-seed,msg.length);
+                        seed--;
+                        var cmd="scrollit_r2l(" + seed + ")";
+                        window.status=out;
+                        timerTwo=window.setTimeout(cmd,100);
+                }
+                else {
+                        window.status=" ";
+                        timerTwo=window.setTimeout("scrollit_r2l(100)",75);
+                }
+        }
+}
+
+// global variables
+var id, position=0;
+function edoscroller()
+{
+        // variables declaration
+        var i,k,msg="Hello! Welcome! Hello! Welcome!";
+
+        // increase msg
+        k=(100/msg.length)+1;
+        for(i=0;i<=k;i++) msg+=" "+msg;
+
+        // show it to the window
+        document.form2.edoscroller.value=msg.substring(position,position+100)
+;
+
+        // set new position
+        if(position++==100) position=0;
+        // repeat at entered speed
+        id=setTimeout("edoscroller()",100);
+}
+
+// -- End of JavaScript code -------------- -->
+
+
+
+
+function WinOpen() {
+   msg=open("","DisplayWindow","toolbar=no,directories=no,menubar=no");
+   msg.document.write("<HEAD><TITLE>Yo!</TITLE></HEAD>");
+   msg.document.write("<CENTER><h1><B>This is really cool!</B></h1></CENTER>"
+);
+}
+
+function hello() {
+   alert("Hello!");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Qiang Zuo (John) 
+
+'s  Home Page
+
+
+
+
+
+
+
+
+
+
+ 
+  since 02/20/96.  Thanks for comming. 
+: Austin Time 
+  
+
+
+Who am I: Self Introduction ?
+I'm currently in the Master program of 
+Computer Sciences Department,
+University of Texas at Austin.
+Please click here 
+for more information. 
+
+
+ 
+SERIOUS
+JUNK
+
+   
+
+   
+      
+          
+                Computer Courses 
+      
+          
+               
+                 CS Languages 
+      
+          
+                About UNIX 
+   
+      
+          
+                Computer Graphics 
+      
+          
+                Linux 
+      
+          
+               Windows Programming
+   
+      
+          
+               
+                        X Programming 
+      
+          
+               
+                        Technical CS Lib 
+      
+          
+               
+                     Java
+   
+
+
+
+
+
+ 
+REAL
+JUNK
+
+
+     Sports  
+     Games 
+     News 
+
+
+
+
+
+ 
+STRUGGLE
+FOR
+LIVING
+
+
+   
+   
+      
+          
+                Institutes 
+      
+          
+                Job & Resume 
+      
+          
+                Organizations 
+    
+      
+          
+                Net Starting Points 
+      
+          
+               
+                        Free World Dialup Service 
+      
+          
+                Net and Net 
+   
+      
+          
+                Finance 
+      
+          
+                Reference Book 
+      
+          
+                Company Profile 
+   
+
+
+
+
+
+
+
+
+
+To Contact Me
+
+Campus Addres: 5106 N. Lamar #109, Austin, TX 78751
+ Campus Phone: +1-(512)-459-9287 (H)
+Home Address:  9001 S. Braeswood, Apt 1201, Houston, TX 77074 
+Phone       :  +1 (713) 988-4967 
+qzuo@cs.utexas.edu 
+
+
+
+ Guestbook  
+
+
+
+
+This page is still underconstruction.
+Welcome Back
+
+/Last modificat
+ion: 01/22/96.
+
+
+
+ copyright Qiang Zuo 1995
+
+
+

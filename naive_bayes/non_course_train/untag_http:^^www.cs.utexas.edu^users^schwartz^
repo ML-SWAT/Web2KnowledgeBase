@@ -1,0 +1,87 @@
+
+
+
+
+
+SSGRG Title Page
+
+
+
+
+Welcome to the home page of the Software Systems Generator 
+Research Group! 
+Software system generators are tools for assembling complex software from 
+interchangeable, reusable components. We have developed GenVoca, a 
+domain-independent model of software construction that defines systems as algebraic 
+equations, where terms are components. GenVoca has been successfully applied to 
+many domains including database management systems, avionics, and data structures. 
+Our results have demonstrated GenVoca generators can substantially improve 
+productivity and application run-time performance. 
+If this is your first visit and you have questions on what is the best place to start, take a look at Getting Started. 
+
+
+
+Research Group Members 
+Getting Started 
+Project Index 
+Publications 
+Software Distributions 
+
+
+
+Related Web Pages:  UTCS General 
+
+
+ Members 
+Don Batory Professor
+Angela Dappert Ph.D. Student
+Guillermo Jimenez-PerezPh.D. Student
+Jeff ThomasPh.D. Student
+Lance Tokuda Ph.D. Student
+Yannis Smaragdakis Ph.D. Student
+K.T ShepherdResearch Associate
+
+Former Members 
+and Graduation DatesDinesh DasPh.D. May 1995
+Millie VillarrealPh.D. December 1994
+Bart GeraciPostdoc Sep 1993 - Sep 1994
+Marty SirkinPh.D. March 1994
+Sankar DasariM.Sc. May 1994
+
+
+Overview (Getting Started)
+Software components that are used by generators to build software systems are not typical software modules. Components 
+encapsulate a feature of a domain that many systems of that domain may share. For this to be possible, components must encapsulate 
+refinements of many different parts (e.g., classes) of a software system. Some of these refinements require the manipulation of 
+metadata and reflective computations. Thus, it is likely that our basic approach goes beyond simple object-orientation to that of 
+large-scale program transformations. 
+
+To get a feel for the basic issues involved and the breadth of 
+GenVoca's applicability, I'd recommend the following papers for 
+starters (and read them in this order): 
+Scalable Software Libraries 
+Creating Reference Architectures... 
+The Design and Implementation... 
+Composition Validation and Subjectivity... 
+
+
+
+If you are looking for specific results (improvement in productivity, 
+performance) that can be delivered by generators, or the 
+relationship of our work to design patterns, check out (in order): 
+Reengineering a Complex Application... 
+P2: A Lightweight DBMS Generator 
+Memory Simulators and Software Generators
+Automated Software Evolution via Design Patterns... 
+
+
+
+For further information, please contact Don Batory (batory@cs.utexas.edu). Periodically, I release lecture notes for my tutorial on 
+Software System Generators, Architectures, and Reuse. When available, lecture notes are distributed as a tar file containing 
+compressed postscript files. 
+
+Last modified: December 24, 1996
+
+Don Batory (batory@cs.utexas.edu) 
+
+

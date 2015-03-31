@@ -1,0 +1,209 @@
+UTCS Machine Learning Research Group
+<!-- <img align =top src= "http://www.cs.utexas.edu/users/ml/tower1.gif">
+
+ 
+
+ The Machine Learning research group is supervised by  Professor Ray Mooney. Our research focuses
+on combining empirical and knowledge-based learning techniques,
+including applications such as natural language acquisition, knowledge
+refinement, and learning for planning.
+
+
+This group is part of the 
+Artificial Intelligence Lab and the Computer Science Department, at
+the  University of Texas at
+Austin.  
+
+For a picture of our group click here. 
+
+
+
+ Graduate Students 
+
+ Mary Elaine Califf --- (mecaliff@cs.utexas.edu)
+ Tara Estlin --- (estlin@cs.utexas.edu)
+ Ulf Hermjakob --- (ulf@cs.utexas.edu)
+ Sowmya Ramachandran --- (sowmya@cs.utexas.edu)
+ Cindi Thompson --- (cthomp@cs.utexas.edu)
+
+
+ Alumni 
+
+ Paul Baffes --- (baffes@scicomp.com)
+ Jeff Mahoney --- (mahoney@firstadvisors.com)
+ Hwee Tou Ng --- (nhweetou@trantor.dso.gov.sg)
+ Dirk Ourston --- (dirk_ourston@cpqm.saic.com)
+ Bradley Richards --- (bradley@ai-lab.fh-furtwangen.de)
+ Siddarth Subramanian --- (sid@georgetown.com)
+ John Zelle --- (jz6011r@acad.drake.edu)
+
+
+
+ Research Areas and Publications
+
+
+
+ 
+Abduction
+
+ 
+Inductive Logic Programming 
+
+ 
+Natural Language Acquisition
+
+ 
+Qualitative Modeling & Diagnosis
+
+ 
+Speedup Learning and Learning for Planning
+
+ 
+Student Modelling for Intelligent Tutoring Systems
+
+ 
+Theory Refinement
+
+ 
+Uncertain Reasoning
+
+
+
+
+Here is a complete 
+ list of publications. 
+
+
+ Research Software 
+
+
+ ACCEL -  An abductive reasoning system.
+ NEITHER - A theory revision system for propositional rule bases.
+ FORTE - A theory revision system for first-order rule bases.
+ CHILLIN - An inductive logic programming system with predicate invention.
+ FOIDL - An inductive logic programming system for first-order decision lists.
+ DOLPHIN - An ILP/EBL speedup-learning system for adding search-control to Prolog programs.
+ ML Programs - A set of standard inductive classification algorithms and software for automated experimentation and system comparison.
+
+
+
+ Data Repositories
+
+
+ Language-learning data (in a form for ILP)
+
+
+
+
+
+
+ Some Related WWW Sites 
+
+
+ Associations and Groups 
+
+
+
+ AAAI
+- American Association for AI 
+
+ ACL Association for Computational Linguistics
+
+  ILPNet - European Inductive Logic Programming Scientific Network
+
+  SIGART - ACM Special Interest Group on Artificial Intelligence 
+
+  SIGNLL - ACL Special Interest Group on Natural Language Learning
+
+
+
+
+ Conferences 
+
+
+  International Joint Conference on Aritficial Intelligence  (IJCAI-97) 
+
+  National Conference on Artificial Intelligence  (AAAI-97) 
+
+   International Conference on Machine Learning  (ICML-97) 
+
+   Fourth European Conference on Planning  (ECP-97) 
+
+
+
+
+ Information Sources 
+
+
+  AI Subject Index  
+
+  AI Biblio Query  
+
+  Index to Machine
+Learning Home Pages 
+
+  Machine Learning Information Services
+
+ Computation and Language Paper Archive
+
+
+
+ Journals 
+
+
+ AIJ
+- Artificial Intelligence Journal
+
+ Computational Linguistics 
+- Journal of the ACL
+
+ JAIR - Journal of Artificial 
+Intelligence Research 
+
+ MLJ
+- Machine Learning Journal
+
+
+
+ Learning Systems 
+
+
+ FOIL - J. R. Quinlan's inductive learner  
+
+  PRODIGY  - Problem solving system for 
+planning and learning at Carnegie Mellon
+
+  
+UCPOP -
+Partial-Order Planner at University of Washington
+
+
+
+
+ Research Groups 
+
+
+  Explanation-Based Learning Group - University of Illinois
+
+  Inductive Learning Group - University of Illinois
+
+ 
+Machine Learning Research Group - Oxford University
+
+  Machine Learning Research Group - UC Irvine
+
+ 
+Natural Language Acquisition Group - University of Texas at Austin 
+
+  
+Machine Learning Research Group - University of Wisconsin at Madison 
+
+
+
+
+
+
+
+
+
+estlin@cs.utexas.edu
