@@ -11,11 +11,11 @@ def strip_tags(file_path):
     return ''.join(plain_text)
 
 def write_file(filename, content, destination):
-    folder = destination + '/' + os.path.dirname(filename)
+    folder = 'untag_' + os.path.dirname(filename)
     if not os.path.exists(folder):
         os.makedirs(folder)
     print filename
-    file = open(destination + '/' + filename, "w")
+    file = open('untag_' + filename, "w")
     file.write(content)
     file.close()
 
