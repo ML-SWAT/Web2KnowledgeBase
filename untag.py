@@ -1,20 +1,23 @@
-def strip_tags(html,origin_directory):
-    from HTMLParser import HTMLParser
-    html = open(origin_directory+'/'+html)
-    html=html.read()
-    html = html.strip()
-    html = html.strip("\n")
-    result = []
+from HTMLParser import HTMLParser
+import os
+def strip_tags(file_path):
+    input_file = open(file_path)
+    raw_data = input_file.read()
+    plain_text = []
     parser = HTMLParser()
-    parser.handle_data = result.append
-    parser.feed(html)
+    parser.handle_data = plain_text.append
+    parser.feed(raw_data)
     parser.close()
-    return ''.join(result)
+    return ''.join(plain_text)
 
-def generate_untag_file(html,untag_text,origin_directory,destiny_directory):
-	html='untag_'+html
-	file = open(destiny_directory+'/'+html, "w")
-	file.write(untag_text)
-	file.close()
+def write_file(filename, content, destination):
+    folder = 'untag_' + os.path.dirname(filename)
+    if not os.path.exists(folder):
+        os.makedirs(folder)
+    print filename
+    file = open('untag_' + filename, "w")
+    file.write(content)
+    file.close()
+
 if __name__=="__main__":
     print strip_tags("example.html")
