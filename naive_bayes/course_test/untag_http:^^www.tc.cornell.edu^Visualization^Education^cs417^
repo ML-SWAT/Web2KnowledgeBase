@@ -1,0 +1,268 @@
+
+
+
+CS417 Lab Main Page
+
+
+
+
+
+
+Computer Science 417: Computer Graphics
+ This page is evolving. 
+It is incomplete but hopefully useful. 
+
+This is the beginnings of a home page for
+CS 417 which deals with computer graphics and scientific visualization at
+the level of 
+ Computer Graphics: Principles and Practice  by Foley et.al., 
+or  3D Computer
+Graphics  by Alan Watt.
+ CS 417 is currently taught by Bruce
+Land, who is also the Project Leader for the Visualization Group at
+the Cornell Theory Center.
+
+
+Contents
+
+   Course summary 
+   Administrivia: Textbook errors, 
+   Homework, Staff, Schedule
+    Relevant math:  Cornell Math 293
+   Other graphics courses 
+
+
+
+
+ Course Summary  
+Computer graphics is a topic that requires mathematical, 
+programming, and artistic skills, among others.
+The content of the computer graphics fundamentals 
+course at Cornell focuses on mathematical skills. The associated 
+lab course, 
+ 
+CS418,  is a programming course designed
+to help illuminate the math. 
+
+The course covers the following topics 
+(but not all in the same year): 
+
+ Construction of surfaces 
+ 
+    Explicit  polygon  lists 
+    Parametric operations 
+    
+       quadric surfaces
+       figures of rotation
+       swept surfaces
+       tensor-product surfaces
+       
+ A parametric surface viewer 
+    
+     Implicit Surfaces
+    
+       quadric surfaces
+       blobby models
+       CSG operations
+       surface tesselation
+    
+     Computing a surface 
+     normal 
+    Hierarchical
+ grouping of simple objects to form complex surfaces. 
+ 
+ Scene composition and animation
+ 
+    Introduction to homogeneous coordinates
+    Geometric transforms
+    
+       building objects
+       kinematic animation
+    
+    Hierarchical modeling 
+    
+       combining prototype objects
+       mimic connected rigid parts
+       inverse kinematics
+    
+     Dynamical systems and animation
+    
+         Differential equations 
+        Cellular automata
+     
+  
+ Viewing of a group of objects 
+ 
+    Camera transforms 
+    Clipping to a view volume
+    Projection onto a 2D screen
+    
+       parallel projection
+       perspective projection
+    
+     
+      A camera simulator   (transform, clip, project)
+    Stereo vision
+
+  Rendering  
+  
+     Shading/lighting
+     
+        human color vision
+        color device limitations
+        light: geometric optics and waves
+        Gourand and Phong shading
+     
+     Hidden surface removal 
+     
+	Z-buffer
+	transparency and shadows
+     
+     Scan-conversion and Anti-aliasing 
+     
+	polygons to pixels
+        human vernier hyper-acuity
+        image space methods
+	object space methods
+     
+     Surface property modifications  
+      
+	texture-mapping 
+	bump-mapping
+	volume textures
+     
+  
+  Modeling of scientific data for scientific visualization. 
+  
+     Aspects of scientific data
+     
+	dimensionality of fields
+	scalar and vector fields
+	objects (e.g. walls of a channel)
+     
+     Scalar fields
+     
+	contour lines and surfaces
+	colors and color misperception
+	volume rendering
+     
+     Vector fields
+     
+	difficulties
+	"arrows"
+	field lines
+	particle advection
+     
+     Multiparameter and High-dimensional data
+     Dynamic systems
+   
+
+
+  
+
+ Administrivia: 
+
+  Errors in the Textbook: 
+  3D Computer graphics  by Alan Watt.
+
+ Homework assignments 
+
+     Homework #1 is due 31 Jan 96.
+     Homework #2 is due 7 Feb 96.
+     Homework #3 is due 14 Feb 96.
+     Homework #4 is due 21 Feb 96.
+     Homework #5 is due 6 March 96.
+     Homework #6 is due 13 March 96.
+     Homework #7 is due 27 March 96.
+     Homework #8 is due 3 April 96.
+     Homework #9 is due 17 April 96.
+     Homework #10 is due 1 May 96.
+
+
+ Course Schedule
+
+    Prelim #1 is on 2/27/96 at 7:30 pm.
+The  first test 
+from spring 1995 can serve as a general guide to my test style.
+Also there is a list of all 
+ scheduled prelims.
+at Cornell.
+
+    Spring break is 3/16/96 to 3/24/96.
+
+    Prelim #2 is on 4/9/96 at 7:30 pm.
+ This is a Religious Holiday for some students. NYS Education
+Law §224-A mandates that faculty make available an opportunity to
+make up any examination missed because of religious beliefs. In
+order to facilitate preparation of makeup exams, students intending
+to be absent in order to observe this holiday are requested
+to notify the instructor by 2/2/96.
+
+    Last Lecture is 5/3/96.
+
+    Final is 
+ scheduled  
+for exam period 12, Tuesday May 14, 3-5:30 in Upson B17.
+The final mean was 80 with a standard deviation of 15.
+
+
+
+ Staff 
+
+   Bruce Land, 
+   606 Rhodes, 4-8686, bruce@tc.cornell.edu 
+   Jing Huang,  4138 Upson, 5-1158, huang@cs 
+   
+Ioi K. Lam,  4162 Upson, 5-2219, ioi@cs 
+   Justin McCune,  343a Upson, 5-1041, jmccune@cs
+
+
+
+
+Relevant Math:
+
+ 
+Cornell University Math 293
+
+
+Other Graphics Courses:
+
+ 
+University of California at Davis 
+ 
+University of Waterloo 
+
+University of Wales College of Cardiff
+ 
+University of Manchester
+ 
+Oregon State University
+
+
+Related Topics:
+
+ 
+
+Final Project CS 418 Animations (1994 to 1996)
+
+ 
+
+Visualization at the Cornell Theory Center 
+
+
+
+
+
+
+Comments about Theory Center online documents are welcome and may be sent to
+doc-comments@tc.cornell.edu.
+ 
+
+Last modified, 1/15/96 B. Land. 
+
+
+
+ 
+Copyright Statement 
+
+ 

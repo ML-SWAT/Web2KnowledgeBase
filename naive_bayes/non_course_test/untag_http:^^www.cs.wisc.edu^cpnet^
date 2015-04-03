@@ -1,0 +1,181 @@
+
+
+Complementarity Problem Net: Algorithms and Applications
+
+
+
+
+ Complementarity Problem NET
+
+As a result of more than three decades of research, the subject of 
+complementarity problems, with its diverse applications in engineering, 
+economics, and sciences, has become a well-established and fruitful
+discipline within mathematical programming.  Several monographs 
+and surveys have documented the basic theory, algorithms, and applications 
+of complementarity problems and their role in optimization theory.
+
+This page serves as a center for information regarding research in
+complementarity problems.  As such there is a listing of meetings
+of interest to the community, some pointers to software for
+complementarity problems as well as links to other pages of interest.
+A listing of researchers and some application areas are also given.
+
+
+
+
+ Table of Contents 
+
+ 
+	Directory of Researchers in Complementarity 
+ 
+	Software for Complementarity Problems
+ 
+	Applications of Complementarity
+ 
+       Relevant Web Links 
+
+
+
+
+
+ 
+Directory of Complementarity Researchers
+
+
+
+
+Software for Complementarity Problems 
+
+
+
+ 
+
+MCPLIB: 
+
+A collection of nonlinear mixed complementarity problems, problem
+description, and how to access the GAMS source files for
+these problems.
+
+ 
+
+Complementarity Toolbox for MATLAB: 
+
+This (evolving) freely available toolbox consists of several mex and
+m-files.  These allow all the MCPLIB problems to be accessed from
+MATLAB without access to GAMS.  The mex files give function
+evaluations and sparse Jacobian evaluations.  Machine specific
+versions can be downloaded.
+The PATH solver is also available in this toolbox, more details below.
+
+ 
+
+Solver Interface to GAMS: 
+
+This describes a library of routines that are
+available to help hook your solver to the GAMS/MCP modeling language.
+Contact steve@gams.com, rutherford@colorado.edu or ferris@cs.wisc.edu
+for further details.
+
+ 
+
+MILES: 
+
+MILES is an extension of the classical
+Josephy-Newton method for NCP in which the solution to each linearized
+subproblem is computed via Lemke's almost-complementary pivot algorithm.
+This Newton point is used to define
+the Newton direction, which is then used in a damped
+linesearch.  The merit function used measures both the violation in
+feasibility and in complementarity.  MILES also employs a restart
+procedure in cases where the Newton point cannot be computed due to
+termination in a secondary ray. 
+Every linearized subproblem is rescaled to equilibrate the elements
+appearing in the data of the subproblem.
+
+ 
+
+PATH:
+
+(Runs under GAMS/MCP
+or directly under MATLAB):
+The PATH solver applies techniques similar
+to those used in Newton methods for smooth systems to a
+nonsmooth reformulation of the MCP.  The algorithm
+consists of a sequence of major iterations, each consisting of an
+approximation or linearization step similar to that of MILES, 
+the construction of a path
+to the Newton point (the solution to the approximation), and a
+possible search of this path.  When the Newton point does not exists or the
+path cannot be entirely constructed, a step along the partially
+computed path is taken before the problem is relinearized.  A
+nonmonotone watchdog strategy is employed in applying the path search;
+this helps avoid convergence to local minima of the norm function for
+the underlying nonsmooth equation and keeps the number of function
+evaluations required as small as possible.  A list of solver options 
+is given in the document 
+
+ 
+NE/SQP: The NE/SQP algorithm is based upon
+reformulating the NCP as a system of nonsmooth equations.
+The NE/SQP algorithm implemented as a GAMS/MCP solver, its robustness
+improved using a proximal perturbation strategy giving the 
+QPCOMP algorithm.
+The nonsmoothness of the equations is
+handled using directional derivatives of H.
+
+ 
+
+SMOOTH
+ 
+The SMOOTH algorithm is based upon
+reformulating the NCP as a system of nonsmooth equations and then
+approximately solving a sequence of smooth approximations, which lead
+to a zero of the nonsmooth system.  
+At each iteration,
+a smooth approximation to the original system is formed where the
+accuracy of the approximation is determined by the residual of the
+current point.  This is implemented as a GAMS/MCP system.
+
+ 
+
+Other solvers 
+have been implemented as subsystems of GAMS and are compared in this paper.
+
+
+
+
+
+
+Applications of Complementarity 
+
+ 
+   Engineering
+and Economic Applications of Complementarity Problems.
+This paper lists many of the known applications of complementarity problems.
+   MPSGE: A preprocessor for the GAMS modeling language that
+allows economic equilibrium problems to be formulated easily.  See the
+GAMS  home page for further information.
+    NEMS
+The National Energy Modeling System.  There are several papers on related 
+algorithms
+and a paper giving an 
+overview of the project.
+ 
+
+
+
+
+ Relevant Web Links 
+
+ 
+   Look up  Michael Trick's Operations Research Page  for some interesting OR links.
+   Look up Interior-Point Web  for information on interior point
+methods at the Argonne National Laboratories archive. 
+ 
+
+
+Last modified: October 24, 1996 by Michael C. Ferris
+
+  ferris@cs.wisc.edu
+
+

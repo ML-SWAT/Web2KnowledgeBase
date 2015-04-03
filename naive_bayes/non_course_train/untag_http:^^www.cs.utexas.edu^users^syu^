@@ -1,0 +1,231 @@
+
+
+
+
+
+Home Page for YU, SHENGMING
+
+
+
+<!-- Beginning of JavaScript Applet -------------------
+function scrolframe(seed)
+{      
+        var msg="Welcome to YU, SHENGMING's Homepage!";
+        var out = " ";  var c   = 1;
+        if (seed > 100)
+        {               seed--;
+                var cmd="scrolframe(" + seed + ")";
+                timerTwo=window.setTimeout(cmd,100);
+        }
+        else if (seed <= 100 && seed > 0)
+                {
+                        for (c=0 ; c < seed ; c++)
+                        {
+                                out+=" ";
+                        }
+                                out+=msg;
+                                seed--;
+                                var cmd="scrolframe(" + seed + ")";
+                                window.status=out;
+                                timerTwo=window.setTimeout(cmd,100);
+                        }
+                                else if (seed <= 0)
+                        {
+                                if (-seed < msg.length)
+                                {
+                                        out+=msg.substring(-seed,msg.length);
+                                        seed--;
+                                        var cmd="scrolframe(" + seed + ")";
+                                        window.status=out;
+                                        timerTwo=window.setTimeout(cmd,100);
+                                }
+                                else
+                                        {
+                                        window.status=" ";
+                                        timerTwo=window.setTimeout("scrolframe(100)",75);
+
+                        }
+                }
+}
+// -- End of JavaScript code ---------------->
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+Welcome to  Shengming Yu's Homepage
+
+
+
+
+
+
+About Me
+
+I am Ph.D Student in the
+        Department of Computer Science
+,
+        University of Texas at Austin
+.
+
+        Want to know more about me? check here.
+
+
+
+
+
+
+
+
+
+
+
+My classmates
+
+
+
+
+
+
+
+Class 8811  of University of Sci
+ence and Technology of China (USTC) 
+
+Class 9381 of the Graduate school of Chinese Academy of 
+Sciences
+
+
+
+
+
+
+
+
+
+
+Useful UT links
+
+
+
+
+
+
+UT campus
+
+ UT Registrar
+
+
+ UT Gradaute Studies
+
+UT Library
+
+utACCESS
+
+Chinese Students and Scholars Association
+
+
+
+
+
+
+
+
+China and Chinese
+
+
+
+
+
+
+China
+
+Internet Distribut
+ed Chinese Magazines
+
+Tsinghua WWW and BBS
+
+NCIC WWW and BBS
+
+Chinese Novels
+
+Chinese Classics
+
+
+
+
+
+
+
+
+
+
+About Austin
+
+
+
+
+
+
+
+
+What's the Weather Today?
+
+Austin City
+Limits
+
+Classified Ads.
+
+Items for sale in Austin
+
+
+
+
+
+
+
+
+
+To Contact Me
+
+        
+        Address: 2910 Medical Arts, Apt. 306, Austin, Texas 78705
+
+
+        
+        Voice:  (512) 494-1148 (H)
+
+        
+        
+        Email: syu@cs.utexas.edu
+
+        
+        
+        Finger me
+
+
+
+
+
+
+
+
+Your comments and suggestions are
+ highly appreciated.
+ 
+
+You are the th visitor
+since October 25, 1996.
+
+
+
+
+

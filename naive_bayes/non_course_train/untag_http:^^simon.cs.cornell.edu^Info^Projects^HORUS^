@@ -1,0 +1,215 @@
+
+
+The Horus Project
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Company of
+the Gods rejoiced, rejoiced, at the coming of Horus, the son of Osiris,
+whose heart was firm, the triumphant, the son of
+Isis, the heir of Osiris.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Horus project has developed a modular and extensible process-group
+communication system, 
+addressing the requirements of a wide variety 
+of robust distributed applications.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Horus, the son of Isis and of Osiris, was a god whose attributes appealed
+strongly to the Egyptians from one end of Egypt to the other, because
+in him every man and woman saw the type of what he or she wished to possess,
+that is to say, renewed life, and life as opposed to death, and movement
+as opposed to inactivity.
+
+
+
+
+
+
+
+ 
+
+Horus provides a framework for the development of distributed applications
+based on group communications, a style of computing that can arise in
+fault-tolerant systems, managed distributed systems, applications that
+exploit data replication or coherent caching, and groupware. Within the
+overall Horus framework a large collection of system and application
+protocols have been developed that allow the application designer to
+construct a communication module that exactly meets the application
+requirements at minimal cost. 
+
+The Horus project was originally launched as an effort to redesign  the
+Isis group
+communication system, but has evolved into a general purpose communication
+architecture with advanced support for the development of robust
+distributed systems in settings for which Isis was unsuitable, such as
+applications that have special security or real-time requirements. Besides
+the practical uses of our software, the project has contributed 
+towards the theory of virtually synchrony, a runtime model used
+for our implementation of data replication and fault-tolerance.   At the same
+time, our software is much faster and lighter weight than the Isis system.
+
+Horus exists as two systems: an initial version coded in C, which can be
+used for research purposes at no fee but has restricted commerical
+rights,
+and a new version called Ensemble, written in ML but usable from many
+other languages, which  is available for all classes of users at no
+fee.  Ensemble is actively under development and we will do series of
+releases over the fall of 1996 and spring of 1997.  By early in
+1997, Ensemble
+will be an outstanding environment for building Java-based groupware
+applications that do multimedia conferencing on the Web.
+
+Horus and Ensemble are designed to be platform independent, and are
+available for different
+classes of workstations, personal computers, parallel processors and on
+next-generation cluster environments using standard high-speed
+communications networks. 
+
+The Horus effort collaborates closely with many other distributed systems
+projects, including Transis, NavTech, and the StormCast and TACOMA
+projects. Links to these and other projects can be found elsewhere in these
+pages. 
+
+
+
+
+
+
+
+
+
+
+Introductions to Horus
+
+
+
+
+Visit the 
+papers
+and 
+abstract
+pages for an overview of all publications and reports related
+to the Horus project. The following are recent articles that present a 
+high-level introduction to Horus:
+
+ 
+Kenneth P. Birman and Robbert van Renesse,
+Software for 
+Reliable Networks, in 
+Scientific American, May, 1996.
+
+
+Robbert van Renesse, Kenneth P. Birman and Silvano Maffeis, 
+
+Horus, a flexible
+Group Communication System, Communications of the ACM, April 1996.
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+Final sentence in the 
+Hyme to Osiris
+from the Papyrus of Ani, better know as the 
+Book of the Dead.
+
+
+
+  
+E.A. Wallis Budge, The Gods of the Egyptians or Studies
+in Egyptian Mythology, Volume 1, pages 486-487, The Open Court Publishing 
+Company, London, 1904.
+
+
+
+Comments to 
+Werner Vogels 
+
+

@@ -1,0 +1,70 @@
+
+
+
+	Melanie Fulgham
+
+
+
+
+
+
+
+     
+     Computer Science & Engineering Department,  
+     University of Washington, FR-35, 
+     Seattle, WA 98195 USA
+
+
+
+ 
+
+
+I'm an a.b.d. graduate student at the University of Washington. 
+
+
+Research
+
+
+My primary research interest is network routing both in multicomputer
+and distributed networks.
+My advisor is 
+Larry Snyder.
+Here's a picture of  Larry
+hard at work.
+
+
+Chaos 
+         Chaos routing project -- the Chaos router is a deadlock-free, 
+             probabilistically livelock-free, non-minimal, 
+             fully adaptive router.
+
+Triplex routing
+         The first non-minimal fully adaptive wormhole algorithm for tori
+             that uses deadlock-prevention to achieve deadlock-freedom
+
+Simulation
+         Simulation of new and existing routing algorithms to learn
+             the strengths and weaknesses of various classes
+             of routing algorithms; e.g. non-minimal versus minimal
+             routing algorithms.
+
+Routing methods and models
+         Development of new routing models to help predict
+             and compare the performance of new routers 
+             in real parallel machines.
+
+Deflection routing
+         Upper and lower bounds for practical (e.g. does not require
+	     sorting) deflection routing
+             algorithms on the 2D mesh topology.
+
+
+
+
+
+ 
+
+  mel@cs.washington.edu 
+  Last modified: Wed Apr 24 17:12:00 PDT 1996
+
+

@@ -1,0 +1,119 @@
+
+
+
+OOPS Research Group
+
+
+
+
+OOPS Research Group
+
+This is the home page for OOPS Research Group, supervised by 
+ Prof. Paul R. Wilson. The graduate students
+in the group are:
+
+
+  Stephen Paul Carl
+  Ajit George
+  Mark S. Johnstone
+  Sheetal V. Kakkad
+  Scott F. Kaplan
+  Donovan Kolbly
+  Michael Neely
+  Zhu Qing
+  Douglas M. Van Wieren
+
+
+
+
+ Research Areas 
+
+
+
+ Memory hierarchies, especially persistent object stores,
+distributed virtual memories, and caches.  We have developed a simple,
+high-performance persistent store for C++, called  Texas, which uses  pointer swizzling at page fault time to
+implement large address spaces efficiently on stock hardware and
+operating systems, using standard compilers.
+
+ Basic studies of program behavior and memory allocation, which
+attempt to repair the damage done by three decades of mostly unsound
+studies of memory allocation.  (See our extensive
+ allocator survey  and
+ (NEW!) Mike Neely's masters thesis.)
+
+ Automatic storage management, especially real-time, generational
+and distributed.  See Wilson's 
+large and  small surveys on
+garbage collection, and papers on efficiency and 
+ locality of garbage collectors.
+We have recently developed a hard 
+real-time garbage collector (written in C++) which we use with C++
+(via a "smart pointer" interface) and our object-oriented Scheme.
+
+  Adaptive memory management
+for virtual memory and file systems, especially dynamic grouping and
+compression in log-structured file systems, and checkpointing for
+fault tolerance and time-travel debugging.
+
+ Implementation of highly extensible and portable programming
+systems, including our new object-oriented extended Scheme system, RScheme,
+which has threads, sockets, real-time GC, a TK interface, etc.  See
+ Donovan Kolbly's home
+page for more info, alpha release source code, etc.  Paul Wilson's
+ course notes
+on Scheme, Scheme interpretation and compilation (in raw
+ASCII text), and
+RScheme
+are also available via ftp.
+
+For a description our integrated macro-processing algorithm to
+support extensible languages and open compilers, see
+ (NEW!)
+Stephen Carl's masters thesis (Note: this thesis
+contains references to a couple of new papers we're writing which
+aren't available yet, but will be (in draft form anyway) sometime
+soon.) 
+
+Also online is a draft of most of Paul Wilson's book-in-progress,
+ (NEW!) An Introduction to Scheme and its Implementation  in html
+format for web browsing.  This contains most (but not all) of the material
+from the ASCII course notes on Scheme, in a much improved and expanded
+presentation.  (It's about 300 standard texinfo pages so far.  More material
+is in the works, including an intro to object systems and metaobjects.)
+Besides being a good general introduction to the Scheme 
+language, Scheme programming, and interpreters and compilers, it provides
+a general introduction to things like macros---making it good background
+reading for Stephen Carl's masters thesis.
+
+
+A list of our papers, with brief descriptions,
+is also available.
+
+
+More papers, a bibliography on heap management, and the  source code for
+Texas Persistent Store are available via anonymous ftp at 
+ftp.cs.utexas.edu:/pub/garbage. The 
+ README 
+file lists all the available material including subdirectories which
+contain collected papers from the 
+1991 and 
+1993 OOPSLA 
+Garbage Collection and Memory Management Workshops.
+
+
+
+People interested in garbage collection may also be interested in
+ Henry Baker's
+ftp site, although it's on an overloaded site and may not
+be accessible (keep trying).  Another site of great interest is
+ Hans Boehm's which
+contains several papers as well as free source code for several
+garbage collectors used with C, C++ and other languages.
+
+
+
+Sheetal V. Kakkad
+
+
+
