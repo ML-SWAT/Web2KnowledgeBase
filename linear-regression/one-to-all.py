@@ -13,6 +13,7 @@ y = []
 
 for file_path in file_list:
 	y.append(file_path.split('/')[2])
+print file_path
 
 file_train, file_test, y_train, y_test = train_test_split(file_list, y, test_size=0.3)
 

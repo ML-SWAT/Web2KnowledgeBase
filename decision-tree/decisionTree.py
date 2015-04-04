@@ -59,18 +59,19 @@ def getPrecision(Y_test_predict, Y_test_true):
 
     print "error rate: " + str(sum_wrong * 1.0 / sum_total)
 
-
+def decisionmake(X_train, Y_train, X_test, Y_test_true):
+    clf = train(X_train, Y_train)
+    Y_test_predict = test(clf, X_test)
+    print "accuracy_score:"
+    print accuracy_score(Y_test_true,Y_test_predict)
 
 if __name__=="__main__":
-    #X_train, Y_train = getData("../naive_bayes/*course_train/*")
     vectorizer = CountVectorizer(input='filename', stop_words='english',encoding='latin1')
     X_train, Y_train = getData(vectorizer,'../naive_bayes/*course_train/*', is_train = True)
-
-    # print len(X_train),len(Y_train)
-    #  print 'finish get from train data'
-    clf = train(X_train, Y_train)
     X_test, Y_test_true = getData(vectorizer,"../naive_bayes/*course_test/*", is_train = False)
     # print len(X_test),len(Y_test_true)
-    Y_test_predict = test(clf, X_test)
-    print "binary decision tree----------------"
-    print "accuracy_score:" + accuracy_score(Y_test_true,Y_test_predict)
+    print "----------------binary decision tree----------------"
+    decisionmake(X_train, Y_train, X_test, Y_test_true)
+
+
+
