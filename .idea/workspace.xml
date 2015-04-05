@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="33aeca4c-66e7-4624-9040-c2bd597b842c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SVM/SVM_multiclass.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naive_bayes/naiveBayes_multiclass.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.tc.cornell.edu^Visualization^Education^cs417^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.tc.cornell.edu^Visualization^Education^cs417^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^cs.cornell.edu^Info^Courses^Current^CS415^CS414.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^cs.cornell.edu^Info^Courses^Current^CS415^CS414.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^cs.cornell.edu^Info^Courses^Fall-95^CS415^CS415.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^cs.cornell.edu^Info^Courses^Fall-95^CS415^CS415.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^cs.cornell.edu^Info^Courses^Spring-96^CS432^cs432.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^cs.cornell.edu^Info^Courses^Spring-96^CS432^cs432.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^simon.cs.cornell.edu^Info^Courses^Current^CS401^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^simon.cs.cornell.edu^Info^Courses^Current^CS401^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^simon.cs.cornell.edu^Info^Courses^Spring-96^CS515^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^simon.cs.cornell.edu^Info^Courses^Spring-96^CS515^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cae.wisc.edu^~ece552^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cae.wisc.edu^~ece552^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Current^CS100A^home.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Current^CS100A^home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Current^CS212^CS212.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Current^CS212^CS212.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Current^CS212^outline.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Current^CS212^outline.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Current^CS314^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Current^CS314^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Current^CS401^home.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Current^CS401^home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Current^CS415^CS414.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Current^CS415^CS414.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Current^CS472^cs472.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Current^CS472^cs472.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Current^CS481^CS481.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Current^CS481^CS481.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Current^CS537^course.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Current^CS537^course.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Current^CS611^home.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Current^CS611^home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Current^CS631^Welcome.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Current^CS631^Welcome.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Current^CS631^home.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Current^CS631^home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Current^CS681^CS681.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Current^CS681^CS681.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Fall-94^CS617^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Fall-94^CS617^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Fall-95^CS314^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Fall-95^CS314^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Fall-95^CS472^cs472.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Fall-95^CS472^cs472.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Fall-95^CS501^CS401-501.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Fall-95^CS501^CS401-501.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Spring-95^CS314^home.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Spring-95^CS314^home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Spring-96^CS100^CS100.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Spring-96^CS100^CS100.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Spring-96^CS211^CS211.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Spring-96^CS211^CS211.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Spring-96^CS212^CS212.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Spring-96^CS212^CS212.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Spring-96^CS512^home.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Spring-96^CS512^home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Spring-96^CS514^index.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Spring-96^CS514^index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Spring-96^CS516^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Spring-96^CS516^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Spring-96^CS664^CS664.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Spring-96^CS664^CS664.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Spring-96^CS674^CS674.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Spring-96^CS674^CS674.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Summer-96^CS99^CS99.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Courses^Summer-96^CS99^CS99.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^People^mhr^681^681.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^People^mhr^681^681.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^People^nikos^CS222^cs222.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^People^nikos^CS222^cs222.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^People^prakas^cs414^cs414.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^People^prakas^cs414^cs414.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^People^tah^cs611.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^People^tah^cs611.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Projects^NuPrl^cs611^CS611.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.cornell.edu^Info^Projects^NuPrl^cs611^CS611.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^UTCS^courses^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^UTCS^courses^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^almstrum^classes^cs336^fall96^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^almstrum^classes^cs336^fall96^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^boyer^courses^cs395t-spring96.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^boyer^courses^cs395t-spring96.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^dahlin^Classes^GradArch^index.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^dahlin^Classes^GradArch^index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^dahlin^Classes^WebOS^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^dahlin^Classes^WebOS^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^dragon^cs310^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^dragon^cs310^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^dwip^cs304p^cs304p.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^dwip^cs304p^cs304p.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^fussell^cs354.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^fussell^cs354.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^fussell^cs384g" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^fussell^cs384g" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^hqliu^cs378.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^hqliu^cs378.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^joshi^cs380d-main.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^joshi^cs380d-main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^kornerup^cs105^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^kornerup^cs105^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^lavender^CS378^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^lavender^CS378^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^lin^cs395t^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^lin^cs395t^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^lorenzo^corsi^cs372^96F^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^lorenzo^corsi^cs372^96F^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^lorenzo^corsi^cs395t^96F^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^lorenzo^corsi^cs395t^96F^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^miranker^395t^index.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^miranker^395t^index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^mooney^ai2^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^mooney^ai2^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^mooney^cs351^welcome.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^mooney^cs351^welcome.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^mooney^ml-course^welcome.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^mooney^ml-course^welcome.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^novak^cs304p.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^novak^cs304p.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^novak^cs375.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^novak^cs375.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^novak^cs381k.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^novak^cs381k.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^novak^cs395t.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^novak^cs395t.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^rdb^cs195T^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^rdb^cs195T^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^rdb^cs372^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^rdb^cs372^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^risto^cs378-nn^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^risto^cs378-nn^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^risto^cs395t-cs^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^risto^cs395t-cs^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^suzy^cs304p^index.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^suzy^cs304p^index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^twang^cs387h^index.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^twang^cs387h^index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^vin^cs380l.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^vin^cs380l.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^vin^cs384m.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^vin^cs384m.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^vin^cs395t.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^vin^cs395t.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^vlr^f96.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^vlr^f96.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^wilson^cs345.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^wilson^cs345.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^xfeng^cs105^cs105.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^xfeng^cs105^cs105.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^yangyang^cs352^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^yangyang^cs352^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^yufeng^cs378.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.utexas.edu^users^yufeng^cs378.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^135^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^135^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^142^95a^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^142^95a^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^142^CurrentQtr^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^142^CurrentQtr^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^143^CurrentQtr" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^143^CurrentQtr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^321^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^321^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^322^96w^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^322^96w^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^322^CurrentQtr^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^322^CurrentQtr^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^326^95sp^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^326^95sp^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^326^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^326^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^341^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^341^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^341^spring96^index.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^341^spring96^index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^370^CurrentQtr^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^370^CurrentQtr^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^370^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^370^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^373^95a^index.html.95a" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^373^95a^index.html.95a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^373^96w^w96index.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^373^96w^w96index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^373^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^373^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^401^CurrentQuarter^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^401^CurrentQuarter^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^403X^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^403X^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^403^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^403^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^413^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^413^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^415^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^415^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^421^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^421^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^431^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^431^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^444^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^444^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^451^CurrentQuarter^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^451^CurrentQuarter^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^457^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^457^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^461^Sp96^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^461^Sp96^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^461^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^461^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^467^Fall96^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^467^Fall96^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^467^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^467^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^471^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^471^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^473^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^473^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^477^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^477^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^490ani^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^490ani^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^501^95^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^501^95^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^501^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^501^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^503^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^503^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^505^CurrentQuarter^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^505^CurrentQuarter^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^505^fall94" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^505^fall94" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^521^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^521^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^524^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^524^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^531^91a^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^531^91a^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^531^CurrentQtr^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^531^CurrentQtr^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^531^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^531^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^533^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^533^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^543^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^543^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^548^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^548^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^551^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^551^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^557^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^557^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^567^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^567^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^573^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^573^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^574^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^574^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^576^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^576^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^581^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^581^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^590B^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^590B^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^590D^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^590D^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^590D^autumn95.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^590D^autumn95.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^590D^autumn96.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^590D^autumn96.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^590MV^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^590MV^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^590b" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^590b" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^590bi^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^590bi^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^590g^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^590g^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^590h^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^590h^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^590k^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^590k^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^590o^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^590o^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^590s^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^590s^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^590s^au95^index.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^590s^au95^index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^590zpl^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^590zpl^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^cse370^CurrentQtr^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^cse370^CurrentQtr^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^cse403^95w" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^cse403^95w" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^cse500^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^cse500^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^cse567" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^cse567" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^cse573^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^education^courses^cse573^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^research^projects^ai^590i^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.washington.edu^research^projects^ai^590i^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~arch^uwarch^courses^cs354.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~arch^uwarch^courses^cs354.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~arch^uwarch^courses^cs552.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~arch^uwarch^courses^cs552.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~arch^uwarch^courses^cs752.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~arch^uwarch^courses^cs752.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~arch^uwarch^courses^cs757.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~arch^uwarch^courses^cs757.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~bart^cs537.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~bart^cs537.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~bart^cs638.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~bart^cs638.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~bart^cs736.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~bart^cs736.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~bestor^cs110^cs110.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~bestor^cs110^cs110.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~bestor^cs302^cs302.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~bestor^cs302^cs302.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~burnett^cs302.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~burnett^cs302.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cao^cs736^cs736.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cao^cs736^cs736.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs110^cs110.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs110^cs110.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs132-1^cs132.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs132-1^cs132.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs132-2^cs132.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs132-2^cs132.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs132-3^cs132.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs132-3^cs132.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs132-4^cs132.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs132-4^cs132.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs302^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs302^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs302^course.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs302^course.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs302^cs302.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs302^cs302.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs310-1^cs310.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs310-1^cs310.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs310-2^cs310.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs310-2^cs310.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs354-1^cs354.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs354-1^cs354.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs354-3^cs354.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs354-3^cs354.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs367-1^cs367.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs367-1^cs367.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs367-2^cs367.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs367-2^cs367.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs367-3^cs367.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs367-3^cs367.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs367-4^cs367.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs367-4^cs367.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs520-1^cs520.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs520-1^cs520.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs525-1^cs525.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs525-1^cs525.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs536-1^cs536.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs536-1^cs536.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs537-1^cs537.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs537-1^cs537.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs537-2^cs537.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs537-2^cs537.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs552-2^cs552.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs552-2^cs552.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs564-1^cs564.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs564-1^cs564.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs564-2^cs564.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs564-2^cs564.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs577-1^cs577.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs577-1^cs577.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs640-1^cs640.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs640-1^cs640.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs720-1^cs720.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs720-1^cs720.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs726-1^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs726-1^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs726-1^cs726.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs726-1^cs726.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs737-1^cs737.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs737-1^cs737.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs838-2^cs838.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~cs838-2^cs838.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~deboor^cs412.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~deboor^cs412.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~deboor^cs717.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~deboor^cs717.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~deboor^ma887.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~deboor^ma887.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~dsilva^cs110.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~dsilva^cs110.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~dyer^cs766.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~dyer^cs766.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~dzimm^cs302.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~dzimm^cs302.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~ferris^cs525-all.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~ferris^cs525-all.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~ferris^cs719.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~ferris^cs719.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~ferris^cs733.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~ferris^cs733.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~fischer^cs701.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~fischer^cs701.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~greg^cs302.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~greg^cs302.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~hcl^cs302.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~hcl^cs302.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~horwitz^cs536^cs536.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~horwitz^cs536^cs536.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~hummert^cs110^cs110.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~hummert^cs110^cs110.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~jonb^cs132^index.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~jonb^cs132^index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~kunen^cs540.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~kunen^cs540.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~markhill^cs752^fall94-95^cs752.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~markhill^cs752^fall94-95^cs752.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~mbirk^cs110^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~mbirk^cs110^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~mbirk^cs302^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~mbirk^cs302^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~melski^cs302.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~melski^cs302.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~milo^cs302.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~milo^cs302.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~mreames^cs302.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~mreames^cs302.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~msteele^cs302.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~msteele^cs302.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~prock^cs302.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~prock^cs302.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~ratliff^132.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~ratliff^132.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~rmanning^cs110.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~rmanning^cs110.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~shavlik^cs540-all.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~shavlik^cs540-all.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~shavlik^cs760.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~shavlik^cs760.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~solomon^cs736.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~solomon^cs736.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~suhui^cs132.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~suhui^cs132.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~tick^cs110.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~tick^cs110.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~tmunson^302^home.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~tmunson^302^home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~turnidge^cs302.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~turnidge^cs302.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~weaver^cs302.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.cs.wisc.edu^~weaver^cs302.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.ece.wisc.edu^~jes^ece752.html" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.ece.wisc.edu^~jes^ece752.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.tc.cornell.edu^Visualization^Education^cs418^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.tc.cornell.edu^Visualization^Education^cs418^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.tc.cornell.edu^Visualization^Education^cs718^" afterPath="$PROJECT_DIR$/course-cotrain-data/fulltext/course/http:^^www.tc.cornell.edu^Visualization^Education^cs718^" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/linear-regression/one-to-all.py" afterPath="$PROJECT_DIR$/linear-regression/one-to-all.py" />
+    </list>
+    <ignored path="Web2KnowledgeBase.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Web2KnowledgeBase" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="naiveBayes" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/naive_bayes/naiveBayes">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="113" max-vertical-offset="645">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="naiveBayes_multiclass.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/naive_bayes/naiveBayes_multiclass.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6766917" vertical-offset="0" max-vertical-offset="532">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="74" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="one-to-all.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/linear-regression/one-to-all.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SVM_multiclass.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SVM/SVM_multiclass.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/untag.py" />
+        <option value="$PROJECT_DIR$/decision-tree/decisionTree.py" />
+        <option value="$PROJECT_DIR$/linear-regression/one-to-all.py" />
+        <option value="$PROJECT_DIR$/SVM/SVM_multiclass.py" />
+        <option value="$PROJECT_DIR$/naive_bayes/naiveBayes_multiclass.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web2KnowledgeBase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web2KnowledgeBase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web2KnowledgeBase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web2KnowledgeBase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web2KnowledgeBase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untag_webkb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webkb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web2KnowledgeBase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web2KnowledgeBase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="linear-regression" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web2KnowledgeBase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web2KnowledgeBase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SVM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings />
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.naiveBayes_multiclass">
+    <configuration default="false" name="untag_script" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Web2KnowledgeBase" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/untag_script.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="naiveBayes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/naive_bayes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Web2KnowledgeBase" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/naive_bayes/naiveBayes" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="naiveBayes_multiclass" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/naive_bayes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Web2KnowledgeBase" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/naive_bayes/naiveBayes_multiclass.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="one-to-all" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linear-regression" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Web2KnowledgeBase" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linear-regression/one-to-all.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SVM_multiclass" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SVM" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Web2KnowledgeBase" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SVM/SVM_multiclass.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Web2KnowledgeBase" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Web2KnowledgeBase" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Web2KnowledgeBase" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Web2KnowledgeBase" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Web2KnowledgeBase" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Web2KnowledgeBase" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.untag_script" />
+      <item index="1" class="java.lang.String" itemvalue="Python.naiveBayes" />
+      <item index="2" class="java.lang.String" itemvalue="Python.naiveBayes_multiclass" />
+      <item index="3" class="java.lang.String" itemvalue="Python.one-to-all" />
+      <item index="4" class="java.lang.String" itemvalue="Python.SVM_multiclass" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.naiveBayes_multiclass" />
+        <item index="1" class="java.lang.String" itemvalue="Python.naiveBayes" />
+        <item index="2" class="java.lang.String" itemvalue="Python.SVM_multiclass" />
+        <item index="3" class="java.lang.String" itemvalue="Python.one-to-all" />
+        <item index="4" class="java.lang.String" itemvalue="Python.untag_script" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33aeca4c-66e7-4624-9040-c2bd597b842c" name="Default" comment="" />
+      <created>1426893992105</created>
+      <option name="number" value="Default" />
+      <updated>1426893992105</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21640626" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997344" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2563081" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/untag.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untag_script.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="390">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untag.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untag_script.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="390">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untag.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="375">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untag_script.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="390">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untag.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="375">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untag_script.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untag.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untag_script.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linear-regression/y.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="725">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untag.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untag_script.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="300">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naive_bayes/course_test/untag_http:^^www.cs.wisc.edu^~cs110^cs110.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naive_bayes/course_train/untag_http:^^cs.cornell.edu^Info^Courses^Current^CS415^CS414.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.9583333" vertical-offset="95" max-vertical-offset="1140">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naive_bayes/course_train/untag_http:^^cs.cornell.edu^Info^Courses^Fall-95^CS415^CS415.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naive_bayes/course_train/untag_http:^^www.cs.utexas.edu^users^wilson^cs345.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3795">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naive_bayes/rename.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linear-regression/dic.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="725">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linear-regression/preprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naive_bayes/non_course_test/untag_http:^^www.cs.wisc.edu^computer-vision^projects^exploration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SVM/SVM_multiclass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linear-regression/feature-extraction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36654136" vertical-offset="0" max-vertical-offset="532">
+          <caret line="13" column="61" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linear-regression/one-to-all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naive_bayes/naiveBayes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="113" max-vertical-offset="645">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naive_bayes/naiveBayes_multiclass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6766917" vertical-offset="0" max-vertical-offset="532">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="74" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
