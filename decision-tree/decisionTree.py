@@ -29,6 +29,7 @@ def train(X_train, Y_train):
 def getData(vectorizer, path, is_train):
     file_list = glob.glob(path)
     if is_train:
+        print file_list
         X = vectorizer.fit_transform(file_list)
     else:
         X = vectorizer.transform(file_list)
