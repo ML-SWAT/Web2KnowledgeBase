@@ -1,9 +1,10 @@
-from glob import glob
 from sklearn import tree
-import os
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.externals.six import StringIO
+import glob
+import os
 import pydot
+from sklearn.metrics import accuracy_score
 
 # function:
 #  get the decision tree by training data
@@ -12,28 +13,32 @@ import pydot
 #  Y_train: of size [n_samples], holding the class labels for the training samples
 # output:
 def train(X_train, Y_train):
-
     clf = tree.DecisionTreeClassifier()
     clf = clf.fit(X_train, Y_train)
 
     #show the constructed dtree
-    dot_data = StringIO()
-    tree.export_graphviz(clf, out_file=dot_data)
-    graph = pydot.graph_from_dot_data(dot_data.getvalue())
-    graph.write_pdf("decision tree.pdf")
+    #dot_data = StringIO()
+    #tree.export_graphviz(clf, out_file=dot_data)
+    #graph = pydot.graph_from_dot_data(dot_data.getvalue())
+    #graph.write_pdf("decision tree.pdf")
     return clf
 
 
 # function:
 #  read the data from html file and translate it into readable X and Y
-def getData(path):
-    file_list = glob(path)
-
-    vectorizer = CountVectorizer(input='filename', stop_words='english',encoding='latin1')
-    X = vectorizer.fit_transform(file_list)
+def getData(vectorizer, path, is_train):
+    file_list = glob.glob(path)
+    if is_train:
+        print file_list
+        X = vectorizer.fit_transform(file_list)
+    else:
+        X = vectorizer.transform(file_list)
     Y = []
     for file_path in file_list:
         Y.append(not ('non_course' in file_path))
+    # print X
+    # print Y
+    X = X.toarray()
     return X, Y
 
 # function:
@@ -55,9 +60,16 @@ def getPrecision(Y_test_predict, Y_test_true):
 
     print "error rate: " + str(sum_wrong * 1.0 / sum_total)
 
-if __name__=="__main__":
-    X_train, Y_train = getData("../naive_bayes/*course_train/*")
+def decisionmake(X_train, Y_train, X_test, Y_test_true):
     clf = train(X_train, Y_train)
-    X_test, Y_test_true = getData("../naive_bayes/*course_test/*")
     Y_test_predict = test(clf, X_test)
-    getPrecision(Y_test_predict, Y_test_true)
+    print "accuracy_score:"
+    print accuracy_score(Y_test_true,Y_test_predict)
+
+if __name__=="__main__":
+    vectorizer = CountVectorizer(input='filename', stop_words='english',encoding='latin1')
+    X_train, Y_train = getData(vectorizer,'../naive_bayes/*course_train/*', is_train = True)
+    X_test, Y_test_true = getData(vectorizer,"../naive_bayes/*course_test/*", is_train = False)
+    # print len(X_test),len(Y_test_true)
+    print "----------------binary decision tree----------------"
+    decisionmake(X_train, Y_train, X_test, Y_test_true)

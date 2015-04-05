@@ -1,5 +1,6 @@
 from HTMLParser import HTMLParser
 import os
+
 def strip_tags(file_path):
     input_file = open(file_path)
     raw_data = input_file.read()
