@@ -13,7 +13,7 @@ if __name__=="__main__":
     y = []
 
     for file_path in file_list:
-	    y.append(file_path.split('/')[2])
+        y.append(file_path.split('/')[3])
 
     file_train, file_test, y_train, y_test_true = train_test_split(file_list, y, test_size=0.3)
     x_train = vectorizer.fit_transform(file_train)

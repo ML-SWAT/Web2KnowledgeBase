@@ -3,7 +3,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.externals.six import StringIO
 import glob
 import os
-import pydot
+#import pydot
 from sklearn.metrics import accuracy_score
 
 # function:
@@ -13,8 +13,12 @@ from sklearn.metrics import accuracy_score
 #  Y_train: of size [n_samples], holding the class labels for the training samples
 # output:
 def train(X_train, Y_train):
+    print 'in train'
     clf = tree.DecisionTreeClassifier()
+    print 'before fit'
     clf = clf.fit(X_train, Y_train)
+    print 'after fit'
+
 
     #show the constructed dtree
     #dot_data = StringIO()
@@ -48,7 +52,9 @@ def getData(vectorizer, path, is_train):
 #  X_test: of size [n_samples, n_features] holding the testing samples
 # output:
 def test(clf, X_test):
+    print 'in test'
     Y_test_predict = clf.predict(X_test)
+    print 'after predict'
     return Y_test_predict
 
 def getPrecision(Y_test_predict, Y_test_true):
@@ -61,7 +67,9 @@ def getPrecision(Y_test_predict, Y_test_true):
     print "error rate: " + str(sum_wrong * 1.0 / sum_total)
 
 def decisionmake(X_train, Y_train, X_test, Y_test_true):
+    print 'in decision make'
     clf = train(X_train, Y_train)
+    print 'before test'
     Y_test_predict = test(clf, X_test)
     print "accuracy_score:"
     print accuracy_score(Y_test_true,Y_test_predict)
