@@ -5,6 +5,9 @@ import glob
 import os
 import pydot
 from sklearn.metrics import accuracy_score
+from sklearn.cross_validation import train_test_split
+from sklearn import cross_validation
+
 
 # function:
 #  get the decision tree by training data
@@ -17,10 +20,10 @@ def train(X_train, Y_train):
     clf = clf.fit(X_train, Y_train)
 
     #show the constructed dtree
-    #dot_data = StringIO()
-    #tree.export_graphviz(clf, out_file=dot_data)
-    #graph = pydot.graph_from_dot_data(dot_data.getvalue())
-    #graph.write_pdf("decision tree.pdf")
+    dot_data = StringIO()
+    tree.export_graphviz(clf, out_file=dot_data)
+    graph = pydot.graph_from_dot_data(dot_data.getvalue())
+    graph.write_pdf("decision tree.pdf")
     return clf
 
 
